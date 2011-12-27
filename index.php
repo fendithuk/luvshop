@@ -20,13 +20,16 @@
                     }
                     .header .home_img
                     {
-                        border: 1px solid black;
+                        
                         height: 270px;
-                        width: 720px;
+                        width: 670px;
                         position: absolute;
                         margin-top: 140px;
-                        margin-left: 31px;
+                        margin-left: 60px;
                         padding: 8px;
+                        background-image: url('image/backgroundBanner.jpg');
+                        box-shadow:  0px 0px 20px 20px #E1E1E0;
+                        opacity: 0.8;
                     }
                     
                     .header .home_img ul
@@ -39,7 +42,6 @@
                     .header .home_img ul li
                     {
                         list-style: none;
-                        
                     }
 
                     .header .home_img #img1
@@ -49,6 +51,7 @@
                         position: absolute;
                         padding-top: 20px;
                         margin-left: -20px;
+/*                        box-shadow: 0px 0px 10px  black;*/
                     }
 
                     .header .home_img table
@@ -114,9 +117,9 @@
                 </style>
                 <img src="image/logo.png"/>
                 <div class="home_img">
-                    <ul>
+<!--                    <ul>
                         <li>
-                            <img src="image/worktime.gif" id="img1"/>
+                            <img src="image/workTime.gif" id="img1"/>
                         </li>
                         <li>
                             <table>
@@ -147,12 +150,17 @@
                             <td><img src="image/pin.gif"/></td>
                             <td><img src="image/nope.gif"/></td>
                         </tr>
-                    </table>
+                    </table>-->
 
                 </div>
             </div>
             <div class="content">
-                content
+                <div class="content_left">
+                    
+                </div>
+                <div class="content_right">
+                    
+                </div>
             </div>
             <div class="footer">
                 footer

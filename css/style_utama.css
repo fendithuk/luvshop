@@ -31,10 +31,10 @@ body
     -moz-border-top-left-radius: 20px;
     -o-border-top-left-radius: 20px;
     
-    box-shadow: inset 0px 170px 100px -15px #fc578f;
-    -webkit-box-shadow: inset 0px 170px 100px -15px #fc578f;
-    -moz-box-shadow: inset 0px 170px 100px -15px #fc578f;
-    -o-box-shadow: inset 0px 170px 100px -15px #fc578f;
+    box-shadow: inset 0px 150px 140px -15px #fc578f;
+    -webkit-box-shadow: inset 0px 150px 140px -15px #fc578f;
+    -moz-box-shadow: inset 0px 150px 140px -15px #fc578f;
+    -o-box-shadow: inset 0px 150px 140px -15px #fc578f;
     
     background-color: white;
 }
@@ -42,6 +42,15 @@ body
 .content
 {
     border: 1px solid black;
+    
+}
+.content_left
+{
+    
+}
+
+.content_right
+{
     
 }
 
