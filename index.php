@@ -117,7 +117,7 @@
                 </style>
                 <img src="image/logo.png"/>
                 <div class="home_img">
-<!--                    <ul>
+                    <ul>
                         <li>
                             <img src="image/workTime.gif" id="img1"/>
                         </li>
@@ -128,8 +128,8 @@
                                     <td><img src="image/condition.gif" id="img3"/></td>
                                 </tr>
                                 <tr>
-                                    <td><img src="image/shipping.gif" id="img4"/></td>
-                                    <td><img src="image/payment.gif" id="img5"/></td>
+                                    <td><img src="image/shiping.gif" id="img4"/></td>
+                                    <td><img src="image/paymen.gif" id="img5"/></td>
                                 </tr>
                             </table>
                         </li>
@@ -145,12 +145,12 @@
 
                     <table class="menu_img">
                         <tr>
-                            <td><img src="image/banner.gif"/></td>
-                            <td><img src="image/email.gif" style="margin-left: -13px;"/></td>
+                            <td><img src="image/fb.gif"/></td>
+                            <td><img src="image/sms.gif" style="margin-left: -13px;"/></td>
                             <td><img src="image/pin.gif"/></td>
-                            <td><img src="image/nope.gif"/></td>
+                            <td><img src="image/sms2.gif"/></td>
                         </tr>
-                    </table>-->
+                    </table>
 
                 </div>
             </div>
@@ -186,16 +186,20 @@
                             margin: 0;
                             padding: 0;
                         }
+                        .content_left #lili a
+                        {
+                            color: #ffb3cd;
+                        }
                     </style>
                     <ul>
                         <li style="background-image: url('image/menu.jpg');" id="lili">
                             <ul style="margin: 0;padding: 0;list-style: none">
                                 <li style="border-bottom: 1px solid black;height: 20px">Main Menu</li>
-                                <li style="color: #ffb3cd;height: 30px; margin-top: 20px">Home</li>
-                                <li style="color: #ffb3cd;height: 30px">My Account</li>
-                                <li style="color: #ffb3cd;height: 30px">Progress</li>
-                                <li style="color: #ffb3cd;height: 30px">Shipment</li>
-                                <li style="color: #ffb3cd;height: 30px">Confirmation of Payments</li>
+                                <li style="color: #ffb3cd;height: 30px; margin-top: 20px"><a href="">Home</a></li>
+                                <li style="color: #ffb3cd;height: 30px"><a href="">My Account</a></li>
+                                <li style="color: #ffb3cd;height: 30px"><a href="">Progress</a></li>
+                                <li style="color: #ffb3cd;height: 30px"><a href="">Shipment</a></li>
+                                <li style="color: #ffb3cd;height: 30px"><a href="">Confirmation of Payments</a></li>
                             </ul>
                         </li>
                         <li style="background-image: url('image/menu.jpg');" id="lili">

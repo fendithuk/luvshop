@@ -5,6 +5,12 @@ body
     background-repeat: repeat-x;
 }
 
+a
+{
+    text-decoration: none;
+    
+}
+
 .wrap
 {
     text-align: left;
