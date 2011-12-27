@@ -25,8 +25,8 @@
                         width: 720px;
                         position: absolute;
                         margin-top: 140px;
-                        margin-left: 40px;
-                        padding: 0;
+                        margin-left: 31px;
+                        padding: 8px;
                     }
                     
                     .header .home_img ul
@@ -48,6 +48,7 @@
                         width: 300px;
                         position: absolute;
                         padding-top: 20px;
+                        margin-left: -20px;
                     }
 
                     .header .home_img table
@@ -71,7 +72,7 @@
                         height: 130px;
                         width: 160px;
                         padding-top: 20px;
-                        margin-left: -10px;
+                        margin-left: -15px;
                     }
                     .header .home_img #img3
                     {
@@ -79,7 +80,7 @@
                         height: 115px;
                         width: 150px;
                         padding-top: 130px;
-                        margin-left: -6px;
+                        margin-left: -11px;
                     }
                     .header .home_img #img4
                     {
@@ -96,6 +97,19 @@
                         width: 150px;
                         padding-top: 130px;
                         padding-left: 140px;
+                    }
+                    .header .home_img .menu_img
+                    {
+                        position: absolute;
+                        margin-top: 170px;
+                        margin-left: 5px;
+                        padding: 0;
+                        width: 720px;
+                    }
+                    .header .home_img .menu_img img
+                    {
+                        height: 70px;
+                        width: 190px;
                     }
                 </style>
                 <img src="image/logo.png"/>
@@ -126,7 +140,14 @@
                         </li>
                     </ul>
 
-
+                    <table class="menu_img">
+                        <tr>
+                            <td><img src="image/banner.gif"/></td>
+                            <td><img src="image/email.gif" style="margin-left: -13px;"/></td>
+                            <td><img src="image/pin.gif"/></td>
+                            <td><img src="image/nope.gif"/></td>
+                        </tr>
+                    </table>
 
                 </div>
             </div>
