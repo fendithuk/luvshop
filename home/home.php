@@ -11,11 +11,77 @@
             <?php
             include('../elemen/header_login.php');
             ?>
-            
+
             <div class="content">
-                <?php
-                    include('../elemen/content_left.php');
-                ?>
+                <div class="content_left">
+                    <style>
+                        .content_left ul
+                        {
+                            margin: 0;
+                            padding: 0;
+                        }
+                        .content_left ul #lili
+                        {
+                            list-style: none;
+                            height: 200px;
+                            width: 170px;
+                            margin-left: auto;
+                            margin-right: auto;
+                            margin-bottom: 15px;
+                            border-radius: 15px;
+                            text-align: center;
+                            padding: 5px;
+                        }
+                        .content_left ul li img
+                        {
+                            height: 50px;
+                            width: 100px;
+
+                        }
+                        .content_left ul li p
+                        {
+
+                            margin: 0;
+                            padding: 0;
+                        }
+                        .content_left #lili a
+                        {
+                            color: #ffb3cd;
+                        }
+                        .content_left .background_menu
+                        {
+                            height: 30px;
+                            margin-top: 20px;
+                            background-color: #656565;
+                            border-radius: 5px;
+                            -webkit-border-radius: 5px;
+                            -moz-border-radius: 5px;
+                            -o-border-radius: 5px; 
+                            text-align: center
+                        }
+                        
+                    </style>
+                    <ul>
+                        <li style="background-image: url('<?php include('../elemen/url.php'); ?>image/menu.jpg');" id="lili">
+                            <ul style="margin: 0;padding: 0;list-style: none">
+                                <li style="border-bottom: 1px solid black;height: 20px">Main Menu</li>
+                                <li class="background_menu"><a href="<?php include('url.php'); ?>home/home.php" style="color: #f08cca;border: 1px solid #9d9d9d;position: absolute; margin-top: 5px;margin-left: -75px; width: 149px;padding-top: 2px;padding-bottom: 2px">Home</a></li>
+                                <li style="height: 30px"><a href="" style="color: #f08cca;">My Account</a></li>
+                                <li style="height: 30px"><a href="" style="color: #f08cca;">Progress</a></li>
+                                <li style="height: 30px"><a href="" style="color: #f08cca;">Shipment</a></li>
+                                <li style="height: 30px"><a href="" style="color: #f08cca;">Confirmation of Payments</a></li>
+                            </ul>
+                        </li>
+                        <li style="background-image: url('<?php include('../elemen/url.php'); ?>image/menu.jpg');" id="lili">
+
+                        </li>
+                        <li style="text-align: center">
+                            <img src="<?php include('../elemen/url.php'); ?>image/bni.gif"/><br/><p>0201226431<br/>Siska Pratiwi</p>
+                            <img src="<?php include('../elemen/url.php'); ?>image/mandiri.gif"/><p>149004914372<br/>Sheli Rosita</p>
+                            <img src="<?php include('../elemen/url.php'); ?>image/tiki.gif"/>
+                        </li>
+                    </ul>
+                </div>
                 <div class="content_right">
                     <style>
                         .content_right .submenu_right
@@ -24,16 +90,19 @@
                             padding: 10px;
                             margin-top: -10px;
                             border-radius: 30px;
+                            -webkit-border-radius: 30px;
+                            -moz-border-radius: 30px;
+                            -o-border-radius: 30px;
                         }
                         .content_right .submenu_right table
                         {
                             margin: 0;
                             padding: 0;
                         }
-/*                        .content_right .submenu_right table tr
-                        {
-                            margin-bottom: 15px;
-                        }*/
+                        /*                        .content_right .submenu_right table tr
+                                                {
+                                                    margin-bottom: 15px;
+                                                }*/
                         .content_right .submenu_right ul
                         {
                             margin: 0;
