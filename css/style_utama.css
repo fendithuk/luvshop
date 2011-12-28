@@ -62,8 +62,9 @@ a
 .content_right
 {
     
-    margin-left: 205px;
+    margin-left: 190px;
     height: 800px;
+    padding: 10px;
 }
 
 .footer

@@ -256,7 +256,7 @@
                 <tr>
                     <td><input/></td>
                     <td><input/></td>
-                    <td><img src="<?php include('url.php'); ?>image/signout.gif"/></td>
+                    <td><a href=""><img src="<?php include('url.php'); ?>image/signout.gif"/></a></td>
                 </tr>
 
             </table>
