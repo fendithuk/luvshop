@@ -189,7 +189,7 @@
         {
             height: 100px;
             width: 385px;
-            
+
             float: right;
             margin-right: 30px;
             padding: 10px;
@@ -226,10 +226,11 @@
             list-style: none;
             display: inline-block;
         }
-        .logreg p
+        .logreg a
         {
             color: #ff0901;
             font-size: 13px;
+            text-decoration: underline;
         }
         .logreg img
         {
@@ -237,7 +238,7 @@
             width: 97px;
             margin-top: -26px;
             margin-left: 0px;
-            
+
         }
     </style>
     <img src="<?php include('url.php'); ?>image/logo.png"/>
@@ -261,17 +262,31 @@
 
             </table>
         </form>
-        
+
         <ul>
-            <li><p>Forgot your username or password ?</p></li>
-            <li><p>Sign Up!</p></li>
+            <li><a href="">Forgot your username or password ?</a></li>
+            <li><a href="<?php include('url.php'); ?>logreg/register.php">Sign Up!</a></li>
         </ul>
     </div>
 
     <div class="home_img">
+        <style>
+            .home_img .judul_worktime
+            {
+                padding: 0;
+                position: absolute;
+                color: #054582;
+                font-weight: bold;
+                font-size: 13px;
+                margin-left: 136px;
+                margin-top: 45px;
+                text-align: center
+            }
+        </style>
         <ul>
             <li>
                 <img src="<?php include('url.php'); ?>image/workTime.gif" id="img1"/>
+                <h3 class="judul_worktime">WORK TIME<br/>09.00 AM-09.00 PM</h3>
             </li>
             <li>
                 <table>

@@ -65,7 +65,7 @@
                         <li style="background-image: url('<?php include('../elemen/url.php'); ?>image/menu.jpg');" id="lili">
                             <ul style="margin: 0;padding: 0;list-style: none">
                                 <li style="border-bottom: 1px solid black;height: 20px">Main Menu</li>
-                                <li class="background_menu"><a href="<?php include('url.php'); ?>home/home.php" style="color: #f08cca;border: 1px solid #9d9d9d;position: absolute; margin-top: 5px;margin-left: -75px; width: 149px;padding-top: 2px;padding-bottom: 2px">Home</a></li>
+                                <li class="background_menu"><a href="#" style="color: #f08cca;border: 1px solid #9d9d9d;position: absolute; margin-top: 5px;margin-left: -75px; width: 149px;padding-top: 2px;padding-bottom: 2px">Home</a></li>
                                 <li style="height: 30px"><a href="" style="color: #f08cca;">My Account</a></li>
                                 <li style="height: 30px"><a href="" style="color: #f08cca;">Progress</a></li>
                                 <li style="height: 30px"><a href="" style="color: #f08cca;">Shipment</a></li>
@@ -86,7 +86,7 @@
                     <style>
                         .content_right .submenu_right
                         {
-                            border: 1px solid black;
+                            border: 1px solid #cbcbcb;
                             padding: 10px;
                             margin-top: -10px;
                             border-radius: 30px;

@@ -185,12 +185,24 @@
                         height: 197px;
 /*                        text-align: center;*/
                     }
+                    .home_img .judul_worktime
+                    {
+                        padding: 0;
+                        position: absolute;
+                        color: #054582;
+                        font-weight: bold;
+                        font-size: 13px;
+                        margin-left: 136px;
+                        margin-top: 45px;
+                        text-align: center
+                    }
                 </style>
                 <img src="<?php include('url.php'); ?>image/logo.png"/>
                 <div class="home_img">
                     <ul>
                         <li>
                             <img src="<?php include('url.php'); ?>image/workTime.gif" id="img1"/>
+                            <h3 class="judul_worktime">WORK TIME<br/>09.00 AM-09.00 PM</h3>
                         </li>
                         <li>
                             <table>
