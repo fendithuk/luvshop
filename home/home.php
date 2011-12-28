@@ -9,14 +9,15 @@
     <body>
         <div class="wrap"> <!--start wrap-->
             <?php
-            include('../elemen/header.php');
+            include('../elemen/header_login.php');
             ?>
+            
             <div class="content">
                 <?php
                     include('../elemen/content_left.php');
                 ?>
                 <div class="content_right">
-                    home
+                    sd
                 </div>
             </div>
             <?php
