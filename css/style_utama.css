@@ -8,7 +8,7 @@ body
 a
 {
     text-decoration: none;
-    
+    outline: none;
 }
 
 .wrap
@@ -37,10 +37,10 @@ a
     -moz-border-top-left-radius: 20px;
     -o-border-top-left-radius: 20px;
     
-    box-shadow: inset 0px 160px 140px -40px #fc578f;
-    -webkit-box-shadow: inset 0px 160px 140px -40px #fc578f;
-    -moz-box-shadow: inset 0px 160px 140px -40px #fc578f;
-    -o-box-shadow: inset 0px 160px 140px -40px #fc578f;
+    box-shadow: 0 214px 143px -100px #FC578F inset;
+    -webkit-box-shadow: 0 214px 143px -100px #FC578F inset;
+    -moz-box-shadow: 0 214px 143px -100px #FC578F inset;
+    -o-box-shadow: 0 214px 143px -100px #FC578F inset;
     
     background-color: white;
     
@@ -69,7 +69,7 @@ a
 .footer
 {
     
-    height: auto;
+    height: 146px;
     padding: 20px;
     border-bottom-right-radius: 20px;
     -webkit-border-bottom-right-radius: 20px;
@@ -81,10 +81,10 @@ a
     -moz-border-bottom-left-radius: 20px;
     -o-border-bottom-left-radius: 20px;
     
-    box-shadow: inset 0px -90px 120px -15px #fc578f;
-    -webkit-box-shadow: inset 0px -90px 120px -15px #fc578f;
-    -moz-box-shadow: inset 0px -90px 120px -15px #fc578f;
-    -o-box-shadow: inset 0px -90px 120px -15px #fc578f;
+    box-shadow: 0 -150px 112px -76px #FC578F inset;
+    -webkit-box-shadow: 0 -150px 112px -76px #FC578F inset;
+    -moz-box-shadow: 0 -150px 112px -76px #FC578F inset;
+    -o-box-shadow: 0 -150px 112px -76px #FC578F inset;
     
     background-color: white;
 }
