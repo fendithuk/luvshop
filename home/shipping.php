@@ -53,11 +53,11 @@
                         {
                             height: 30px;
                             margin-top: 20px;
-                            background-color: #656565;
+/*                            background-color: #656565;
                             border-radius: 5px;
                             -webkit-border-radius: 5px;
                             -moz-border-radius: 5px;
-                            -o-border-radius: 5px; 
+                            -o-border-radius: 5px; */
                             text-align: center
                         }
 
@@ -66,7 +66,7 @@
                         <li style="background-image: url('<?php include('../elemen/url.php'); ?>image/menu.jpg');" id="lili">
                             <ul style="margin: 0;padding: 0;list-style: none">
                                 <li style="border-bottom: 1px solid black;height: 20px">Main Menu</li>
-                                <li class="background_menu"><a href="#" style="color: #f08cca;border: 1px solid #9d9d9d;position: absolute; margin-top: 5px;margin-left: -75px; width: 149px;padding-top: 2px;padding-bottom: 2px">Home</a></li>
+                                <li class="background_menu"><a href="#" style="color: #f08cca;position: absolute; margin-left: -75px; width: 149px;">Home</a></li>
                                 <li style="height: 30px"><a href="" style="color: #f08cca;">My Account</a></li>
                                 <li style="height: 30px"><a href="" style="color: #f08cca;">Progress</a></li>
                                 <li style="height: 30px"><a href="" style="color: #f08cca;">Shipment</a></li>

@@ -53,11 +53,11 @@
                         {
                             height: 30px;
                             margin-top: 20px;
-                            background-color: #656565;
+/*                            background-color: #656565;
                             border-radius: 5px;
                             -webkit-border-radius: 5px;
                             -moz-border-radius: 5px;
-                            -o-border-radius: 5px; 
+                            -o-border-radius: 5px; */
                             text-align: center
                         }
 
@@ -66,7 +66,7 @@
                         <li style="background-image: url('<?php include('../elemen/url.php'); ?>image/menu.jpg');" id="lili">
                             <ul style="margin: 0;padding: 0;list-style: none">
                                 <li style="border-bottom: 1px solid black;height: 20px">Main Menu</li>
-                                <li class="background_menu"><a href="#" style="color: #f08cca;border: 1px solid #9d9d9d;position: absolute; margin-top: 5px;margin-left: -75px; width: 149px;padding-top: 2px;padding-bottom: 2px">Home</a></li>
+                                <li class="background_menu"><a href="#" style="color: #f08cca;position: absolute; margin-left: -75px; width: 149px;">Home</a></li>
                                 <li style="height: 30px"><a href="" style="color: #f08cca;">My Account</a></li>
                                 <li style="height: 30px"><a href="" style="color: #f08cca;">Progress</a></li>
                                 <li style="height: 30px"><a href="" style="color: #f08cca;">Shipment</a></li>
@@ -88,7 +88,7 @@
                         .content_right .submenu_right
                         {
                             border: 1px solid #cbcbcb;
-                            padding: 10px;
+                            padding: 15px;
                             margin-top: -10px;
                             border-radius: 30px;
                             -webkit-border-radius: 30px;
@@ -130,7 +130,44 @@
                         }
                     </style>
                     <div class="submenu_right">
-                        
+                        <style>
+                            .submenu_right img
+                            {
+                                height: 362px;
+                                width: 552px;
+                            }
+                            .submenu_right .list_condition
+                            {
+                                position: absolute;
+                                margin-top: -228px;
+                                margin-left: 224px;
+                                
+                            }
+                            .submenu_right .list_condition p
+                            {
+                                font-size: 12px;
+                                color: #1f282d;
+                                font-family: sans-serif;
+                                text-align: left
+                            }
+                            .submenu_right .list_condition li
+                            {
+                                font-size: 10px;
+                                list-style: decimal;
+                                font-family: sans-serif;
+                                color: #1f282d;
+                            }
+                        </style>
+                        <img src="<?php include('../elemen/url.php'); ?>image/home/girl3.gif"/>
+                        <div class="list_condition">
+                            <p>Term & Condition</p>
+                            <br/>
+                            <ul>
+                                <li>Barang yang dijual adalah Ready Stock dan PO (pre order) yang <br/><br/> dibuat secara handmade, kemiripan dengan foto 80-100%.</li><br/>
+                                <li>Harga yang tertera adalah fixed price dan belum<br/><br/> termasuk ongkos kirim. Ongkir dapat dilihat di<br/><br/>www.tiki-online.com dengan mengisikan FROM "Yogyakarta".</li><br/>
+                                <li>Masa booking 2x24 jam. Lebih dari 2x24 jam tidak melakukan <br/><br/> payment, maka order akan otomatis dibatalkan</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
