@@ -46,7 +46,7 @@
                             </ul>
                         </li>
                         <li style="background-image: url('<?php include('url.php'); ?>image/menu.jpg');" id="lili">
-
+                            
                         </li>
                         <li style="text-align: center">
                             <img src="<?php include('url.php'); ?>image/bni.gif"/><br/><p>0201226431<br/>Siska Pratiwi</p>
