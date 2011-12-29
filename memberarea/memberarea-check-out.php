@@ -100,10 +100,7 @@
                             margin: 0;
                             padding: 0;
                         }
-                        /*                        .content_right .submenu_right table tr
-                                                {
-                                                    margin-bottom: 15px;
-                                                }*/
+                        
                         .content_right .submenu_right ul
                         {
                             margin: 0;
@@ -132,73 +129,22 @@
                     <div class="submenu_right">
                         <table>
                             <tr>
-                                <td>
-                                    <ul>
-                                        <li><img src="<?php include('../elemen/url.php'); ?>image/home/tas5.gif"/></li>
-                                        <li><p>VENTAGO</p></li>
-                                        <li><h3>Rp 95.000</h3></li>
-                                    </ul>
-                                </td>
-                                <td>
-                                    <ul>
-                                        <li><img src="<?php include('../elemen/url.php'); ?>image/home/tas8.gif"/></li>
-                                        <li><p>VELONA</p></li>
-                                        <li><h3>Rp 90.000</h3></li>
-                                    </ul>
-                                </td>
-                                <td>
-                                    <ul>
-                                        <li><img src="<?php include('../elemen/url.php'); ?>image/home/tas3.gif"/></li>
-                                        <li><p>ELECTRA</p></li>
-                                        <li><h3>Rp 95.000</h3></li>
-                                    </ul>
-                                </td>
+                                <td>Name</td>
+                                <td>Price</td>
+                                <td>Quantity</td>
+                                <td>Weight</td>
+                                <td>Subtotal</td>
                             </tr>
+                            
                             <tr>
-                                <td>
-                                    <ul>
-                                        <li><img src="<?php include('../elemen/url.php'); ?>image/home/tas4.gif"/></li>
-                                        <li><p>FLOWER</p></li>
-                                        <li><h3>Rp 260.000</h3></li>
-                                    </ul>
-                                </td>
-                                <td>
-                                    <ul>
-                                        <li><img src="<?php include('../elemen/url.php'); ?>image/home/tas9.gif"/></li>
-                                        <li><p>BUCKET DRAWSTRING</p></li>
-                                        <li><h3>Rp 90.000</h3></li>
-                                    </ul>
-                                </td>
-                                <td>
-                                    <ul>
-                                        <li><img src="<?php include('../elemen/url.php'); ?>image/home/tas6.gif"/></li>
-                                        <li><p>ELLSIE</p></li>
-                                        <li><h3>Rp 90.000</h3></li>
-                                    </ul>
-                                </td>
+                                <td>vebtago magenta</td>
+                                <td>IDR 95.000</td>
+                                <td></td>
+                                <td>0,5</td>
+                                <td>IDR 95.000</td>
                             </tr>
-                            <tr>
-                                <td>
-                                    <ul>
-                                        <li><img src="<?php include('../elemen/url.php'); ?>image/home/tas7.gif"/></li>
-                                        <li><p>STRIPE SPEEDY</p></li>
-                                        <li><h3>Rp 75.000</h3></li>
-                                    </ul>
-                                </td>
-                                <td>
-                                    <ul>
-                                        <li><img src="<?php include('../elemen/url.php'); ?>image/home/tas2.gif"/></li>
-                                        <li><p>BOTTEGA CABAG</p></li>
-                                        <li><h3>Rp 250.000</h3></li>
-                                    </ul>
-                                </td>
-                                <td>
-                                    <ul>
-                                        <li><img src="<?php include('../elemen/url.php'); ?>image/home/tas1.gif"/></li>
-                                        <li><p>FASHION</p></li>
-                                        <li><h3>Rp 210.000</h3></li>
-                                    </ul>
-                                </td>
+                            <tr style="border-bottom: 1px dotted black">
+                                <td></td>
                             </tr>
                         </table>
                     </div>
