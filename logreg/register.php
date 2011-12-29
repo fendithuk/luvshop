@@ -380,6 +380,47 @@
 
                     </style>
                     <div class="register">
+                        <style type="text/css">
+                            .register h3
+                            {
+                                font-weight: bold;
+                                font-family: sans-serif;
+                                font-size: 13px;
+                                color: #070707;
+                            }
+                            .register label
+                            {
+                                font-family: sans-serif;
+                                font-size: 12px;
+                                color: #000000;
+                            }
+                            .register input
+                            {
+                                border: 1px solid #9cb2c9;
+                            }
+                            .register select
+                            {
+                                background-color: white;
+                                outline: none;
+                                border: 1px solid #9cb2c9;
+                                margin-bottom: 5px;
+                                width: 124px;
+
+                            }
+                            .register button
+                            {
+
+                                float: right;
+                                height: auto;
+                                width: 58px;
+                                border-radius: 10px;
+                                background-color: #d6e7ff;
+                                color: #001136;
+                                padding: 5px;
+                                font-weight: bold;
+                                font-size: 12px;
+                            }
+                        </style>
                         <h3>Registration</h3>
                         <form>
                             <table>
@@ -392,18 +433,21 @@
                                     <td><input/></td>
                                 </tr>
                                 <tr>
-                                    <td><label>District/City:</label></td>
+                                    <td></td>
                                     <td>
+                                        <label>District/City:</label>
                                         <select>
-                                            <option value="">
+                                            <option value="" >
 
                                             </option>
                                         </select>
+<!--                                        <img src="<?php include('../elemen/url.php'); ?>image/tandabawah.gif" style="height: 20px; width: 20px;position: absolute;margin-left: -20px;margin-top: 0px;"/>-->
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><label>Province:</label></td>
+                                    <td></td>
                                     <td>
+                                        <label style="margin-right: 18px">Province:</label>
                                         <select>
                                             <option value="">
 
@@ -433,7 +477,7 @@
                                 </tr>
                                 <tr>
                                     <td></td>
-                                    <td><img src="<?php include('../elemen/url.php'); ?>/image/signout.gif" /></td>
+                                    <td><button>Register</button></td>
                                 </tr>
 
                             </table>
