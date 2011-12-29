@@ -85,7 +85,7 @@
                         -webkit-border-radius: 10px;
                         -moz-border-radius: 10px;
                         -o-border-radius: 10px;
-
+                        z-index: 1;
                         box-shadow: 0px 15px 10px -10px #51514f;
                         -webkit-box-shadow: 0px 15px 10px -10px #51514f;
                         -moz-box-shadow: 0px 15px 10px -10px #51514f;
@@ -104,7 +104,7 @@
                         -webkit-border-radius: 10px;
                         -moz-border-radius: 10px;
                         -o-border-radius: 10px;
-
+                        
                         box-shadow: 0px 15px 10px -10px #51514f;
                         -webkit-box-shadow: 0px 15px 10px -10px #51514f;
                         -moz-box-shadow: 0px 15px 10px -10px #51514f;
@@ -299,7 +299,7 @@
                         <li>
                             <table>
                                 <tr>
-                                    <td><img src="<?php include('../elemen/url.php'); ?>image/order.gif" id="img2"/></td>
+                                    <td><a href="<?php include('../elemen/url.php'); ?>home/order.php"><img src="<?php include('../elemen/url.php'); ?>image/order.gif" id="img2"/></a></td>
                                     <td><img src="<?php include('../elemen/url.php'); ?>image/shiping.gif" id="img3"/></td>
                                 </tr>
                                 <tr>
