@@ -257,9 +257,11 @@
                     }
                     .header .member img
                     {
-                        height: 50px;
-                        width: 50px;
+                        height: 20px;
+                        width: 63px;
                         position: relative;
+                        margin-left: 0px;
+                        margin-bottom: -5px;
                     }
                     
                 </style>
