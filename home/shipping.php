@@ -88,7 +88,7 @@
                         .content_right .submenu_right
                         {
                             border: 1px solid #cbcbcb;
-                            padding: 10px;
+                            padding: 15px;
                             margin-top: -10px;
                             border-radius: 30px;
                             -webkit-border-radius: 30px;
@@ -130,7 +130,45 @@
                         }
                     </style>
                     <div class="submenu_right">
-                        
+                        <style>
+                            .submenu_right img
+                            {
+                                height: 175px;
+                                width: 552px;
+                            }
+                            .submenu_right .list_shipping
+                            {
+                                position: absolute;
+                                margin-top: -164px;
+                                margin-left: 23px;
+
+                            }
+                            .submenu_right .list_shipping p
+                            {
+                                font-size: 12px;
+                                color: #1f282d;
+                                font-family: sans-serif;
+                                text-align: left;
+                                margin-bottom: 5px;
+                            }
+                            .submenu_right .list_shipping li
+                            {
+                                font-size: 11px;
+                                list-style: none;
+                                font-family: sans-serif;
+                                color: #1f282d;
+                                margin-bottom: 5px;
+                            }
+                        </style>
+                        <img src="<?php include('../elemen/url.php'); ?>image/home/keramik.gif"/>
+                        <div class="list_shipping">
+                            <p>Semua pengiriman ACE BOUTIQUE menggunakan jasa pengiriman TIKI.<br/>Tarif kirim dapat dilihat dari YOGYAKARTA ke KOTA-KOTA lain.<br/>keterangan : </p>
+                            <ol>
+                                <li style="margin-left: 0px">1.Estimasi berat 1 kg = 1-2 bags.<br/>untuk tas besar minimal 2kg (dihitung volume) </li>
+                                <li style="margin-left: 0px">2.Segera setelah barang dikirim, kami akan memberikan <br/> nomer resi TIKI agar informasi status pengiriman dapat <br/> dicek secara online di http://www.tiki-online.com</li>
+                                <li style="margin-left: 0px">3.Jadwal pengiriman JNE oleh LuvShop boutique dilakukan <br/> setiap hari (senin-jumat, kecuali hari libur) dengan syarat,<br/>payment sebelum jam 13.00 WIB.</li>
+                            </ol>
+                        </div>
                     </div>
                 </div>
             </div>
