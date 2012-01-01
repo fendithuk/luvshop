@@ -5,7 +5,6 @@
         <title></title>
         <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/style_utama.css"/>
         <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/reset.css"/>
-        <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.tools.min.js"></script>
     </head>
     <body>
         <div class="wrap"> <!--start wrap-->
@@ -54,11 +53,22 @@
                         {
                             height: 30px;
                             margin-top: 20px;
-/*                            background-color: #656565;
+                            background-color: #656565;
                             border-radius: 5px;
                             -webkit-border-radius: 5px;
                             -moz-border-radius: 5px;
-                            -o-border-radius: 5px; */
+                            -o-border-radius: 5px; 
+                            text-align: center
+                        }
+                        .content_left .background_menu_payment
+                        {
+                            height: 30px;
+                            margin-top: 20px;
+                            background-color: #656565;
+                            border-radius: 5px;
+                            -webkit-border-radius: 5px;
+                            -moz-border-radius: 5px;
+                            -o-border-radius: 5px; 
                             text-align: center
                         }
 
@@ -67,15 +77,15 @@
                         <li style="background-image: url('<?php include('../elemen/url.php'); ?>image/menu.jpg');" id="lili">
                             <ul style="margin: 0;padding: 0;list-style: none">
                                 <li style="border-bottom: 1px solid black;height: 20px">Main Menu</li>
-                                <li class="background_menu"><a href="#" style="color: #f08cca;position: absolute; margin-left: -75px; width: 149px;">Home</a></li>
+                                <li style="height: 30px"><a href="#" >Home</a></li>
                                 <li style="height: 30px"><a href="" style="color: #f08cca;">My Account</a></li>
                                 <li style="height: 30px"><a href="" style="color: #f08cca;">Progress</a></li>
                                 <li style="height: 30px"><a href="" style="color: #f08cca;">Shipment</a></li>
-                                <li style="height: 30px"><a href="" style="color: #f08cca;">Confirmation of Payments</a></li>
+                                <li class="background_menu_payment"><a href="" >Confirmation of Payments</a></li>
                             </ul>
                         </li>
                         <li style="background-image: url('<?php include('../elemen/url.php'); ?>image/menu.jpg');" id="lili">
-
+                            <?php include('../elemen/my-cart.php'); ?>
                         </li>
                         <li style="text-align: center">
                             <img src="<?php include('../elemen/url.php'); ?>image/bni.gif"/><br/><p>0201226431<br/>Siska Pratiwi</p>
@@ -101,10 +111,20 @@
                             margin: 0;
                             padding: 0;
                         }
-                        /*                        .content_right .submenu_right table tr
-                                                {
-                                                    margin-bottom: 15px;
-                                                }*/
+                        .content_right .submenu_right table tr
+                        {
+                            margin: 0;
+                            padding: 0;
+
+                        }
+                        .content_right .submenu_right table tr td
+                        {
+                            width: 110px;
+
+                            font-size: 12px;
+                            font-family: sans-serif;
+
+                        }
                         .content_right .submenu_right ul
                         {
                             margin: 0;
@@ -129,53 +149,94 @@
                             text-align: center;
                             font-size: 11px;
                         }
+                        .content_right .submenu_right .tombol
+                        {
+                            margin-top: 172px;
+                            text-align: center;
+                        }
+                        .content_right .submenu_right .tombol img
+                        {
+                            height: 24px;
+                            width: 88px;
+                        }
+                        .content_right .submenu_right .img_sort
+                        {
+                            margin-bottom: 20px;
+                            text-align: center;
+                        }
+                        .content_right .submenu_right .img_sort img
+                        {
+                            margin-bottom: 10px;
+                            margin-right: 44px;
+                        }
+
+                        .content_right .submenu_right .img_sort #img1a
+                        {
+                            height: 58px;
+                            width: 67px;
+                            margin-bottom: -6px;
+                        }
+
+                        .content_right .submenu_right .img_sort #img2a
+                        {
+                            height: 30px;
+                            width: 41px;
+                            margin-bottom: 4px;
+                        }
+                        .content_right .submenu_right .img_sort hr
+                        {
+                            width: 292px;
+                            margin-left: 116px;
+                            border: 1px solid #3473ba;
+                            position: absolute;
+                            margin-top: 33px;
+                        }
+
                     </style>
                     <div class="submenu_right">
-                        <style>
-                            .submenu_right img
-                            {
-                                height: 406px;
-                                width: 552px;
-                            }
-                            .submenu_right .list_payment
-                            {
-                                position: absolute;
-                                margin-top: -302px;
-                                margin-left: 227px;
+                        <form>
+                            <table>
+                                <tr>
+                                    <td><label>Number of Purchase : </label></td>
+                                    <td><input type="text" style="color: red"/></td>
+                                </tr>
+                                <tr>
+                                    <td><label>Destination Bank : </label></td>
+                                    <td>
+                                        <select>
+                                            <option>
 
-                            }
-                            .submenu_right .list_payment p
-                            {
-                                font-size: 12px;
-                                color: #1f282d;
-                                font-family: sans-serif;
-                                text-align: left;
-                                margin-bottom: 5px;
-                            }
-                            .submenu_right .list_payment li
-                            {
-                                font-size: 12px;
-                                list-style: decimal;
-                                font-family: sans-serif;
-                                color: #1f282d;
-                                margin-bottom: 5px;
-                            }
-                        </style>
-                        <img src="<?php include('../elemen/url.php'); ?>image/home/girl2.gif"/>
-                        <div class="list_payment">
-                            <p style="font-weight: bold;font-family: sans-serif">Pembayaran</p>
-                            <p>Pembayaran dilakukan ke rekening BNI<br/> dan Mandiri via TRANSFER</p>
-                            <ol>
-                                <li style="margin-left: 20px;">Mandiri : 1490004914372<br/><span style="margin-left: -20px">Atas nama Sheli Rosita</span></li>
-                                <li style="margin-left: 20px;">BNI : 0201226431<br/><span style="margin-left: -20px">Atas nama Siska Pratiwi</span></li>
-                            </ol>
-                            <p style="font-weight: bold">Konfirmase Pembayaran</p>
-                            <ul>
-                                <li style="list-style: outside;margin-left: 15px;">Konfirmasi pembayaran paling lambat<br/>2 x 24 jam setelah pemesanan.</li>
-                                <li style="list-style: outside;margin-left: 15px;">Jika tidak ada konfirmasi maka kami<br/> berhak meng-cancel order.</li>
-                                <li style="list-style: outside;margin-left: 15px;">Konfirmasi pembayaran dapat dilakukan <br/>pada menu Confirmation of Payment.</li>
-                            </ul>
-                        </div>
+                                            </option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label>Your Bank</label></td>
+                                    <td><input type="text"/></td>
+                                </tr>
+                                <tr>
+                                    <td><label>Account Holder's Name : </label></td>
+                                    <td><input type="text"/></td>
+                                </tr>
+                                <tr>
+                                    <td><label>Date Transfer : </label></td>
+                                    <td>
+                                        <select>
+                                            <option>
+
+                                            </option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label>Amount : </label></td>
+                                    <td><input type="text"/></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><img src="<?php include('../elemen/url.php'); ?>image/cart/submit.gif" style="float: right"/></td>
+                                </tr>
+                            </table>
+                        </form>
 
                     </div>
                 </div>

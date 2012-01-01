@@ -5,6 +5,7 @@
         <title></title>
         <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/style_utama.css"/>
         <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/reset.css"/>
+        <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.tools.min.js"></script>
     </head>
     <body>
         <div class="wrap"> <!--start wrap-->
@@ -74,7 +75,7 @@
                             </ul>
                         </li>
                         <li style="background-image: url('<?php include('../elemen/url.php'); ?>image/menu.jpg');" id="lili">
-
+                            <?php include('../elemen/my-cart.php'); ?>
                         </li>
                         <li style="text-align: center">
                             <img src="<?php include('../elemen/url.php'); ?>image/bni.gif"/><br/><p>0201226431<br/>Siska Pratiwi</p>
@@ -88,7 +89,7 @@
                         .content_right .submenu_right
                         {
                             border: 1px solid #cbcbcb;
-                            padding: 10px;
+                            padding: 15px;
                             margin-top: -10px;
                             border-radius: 30px;
                             -webkit-border-radius: 30px;
@@ -100,7 +101,20 @@
                             margin: 0;
                             padding: 0;
                         }
-                        
+                        .content_right .submenu_right table tr
+                        {
+                            margin: 0;
+                            padding: 0;
+
+                        }
+                        .content_right .submenu_right table tr td
+                        {
+                            width: 110px;
+                            
+                            font-size: 12px;
+                            font-family: sans-serif;
+
+                        }
                         .content_right .submenu_right ul
                         {
                             margin: 0;
@@ -125,6 +139,17 @@
                             text-align: center;
                             font-size: 11px;
                         }
+                        .content_right .submenu_right .check
+                        {
+                            display: inline-block;
+                            color: #4293e2;
+                            font-size: 13px
+                        }
+                        .content_right .submenu_right .check:hover
+                        {
+                            color: black;
+                            text-decoration: underline;
+                        }
                     </style>
                     <div class="submenu_right">
                         <table>
@@ -135,7 +160,9 @@
                                 <td>Weight</td>
                                 <td>Subtotal</td>
                             </tr>
-                            
+                            <tr>
+                                <td><br/></td>
+                            </tr>
                             <tr>
                                 <td>vebtago magenta</td>
                                 <td>IDR 95.000</td>
@@ -143,8 +170,50 @@
                                 <td>0,5</td>
                                 <td>IDR 95.000</td>
                             </tr>
-                            <tr style="border-bottom: 1px dotted black">
+                            <tr>
+                                <td><br/></td>
+                            </tr>
+                            <tr style="border-bottom: 1px dashed black">
                                 <td></td>
+                            </tr>
+                            <tr>
+                                <td><br/></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td>Shipping fee: </td>
+                                <td>0,5</td>
+                                <td>Waiting</td>
+                            </tr>
+                            <tr>
+                                <td><br/></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total: </td>
+                                <td>IDR 95.000</td>
+                            </tr>
+                            <tr>
+                                <td><br/></td>
+                            </tr>
+                            <tr style="border-bottom: 1px dashed black">
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><p style="margin-top: 5px;"></p></td>
+                            </tr>
+                            
+                            <tr style="border-bottom: 1px solid black;"> 
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><br/></td>
+                            </tr>
+                            <tr>
+                                <td colspan="5"><p><a href="" class="check">Continue Shoping</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="" class="check">Check Out</a></p></td>
                             </tr>
                         </table>
                     </div>

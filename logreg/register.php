@@ -5,6 +5,7 @@
         <title></title>
         <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/style_utama.css"/>
         <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/reset.css"/>
+        <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.tools.min.js"></script>
     </head>
     <body>
         <div class="wrap"> <!--start wrap-->
@@ -244,9 +245,9 @@
                     }
                     .logreg img
                     {
-                        height: 39px;
-                        width: 97px;
-                        margin-top: -26px;
+                        height: 21px;
+                        width: 60px;
+                        margin-top: -16px;
                         margin-left: 0px;
 
                     }
@@ -267,7 +268,7 @@
                             <tr>
                                 <td><input/></td>
                                 <td><input/></td>
-                                <td><a href=""><img src="<?php include('../elemen/url.php'); ?>image/signout.gif"/></a></td>
+                                <td><a href=""><img src="<?php include('../elemen/url.php'); ?>image/login.gif"/></a></td>
                             </tr>
 
                         </table>

@@ -92,7 +92,7 @@
             -moz-box-shadow: 0px 15px 10px -10px #51514f;
             -o-box-shadow: 0px 15px 10px -10px #51514f;
 
-
+            z-index: 1;
 
         }
         .header .home_img #img3
@@ -154,6 +154,8 @@
             -webkit-box-shadow: 75px 85px 10px -80px #51514f;
             -moz-box-shadow: 75px 85px 10px -80px #51514f;
             -o-box-shadow: 75px 85px 10px -80px #51514f;
+
+            z-index: -1;
         }
         .header .home_img .menu_img
         {
@@ -234,9 +236,9 @@
         }
         .logreg img
         {
-            height: 39px;
-            width: 97px;
-            margin-top: -26px;
+            height: 21px;
+            width: 60px;
+            margin-top: -16px;
             margin-left: 0px;
 
         }
@@ -257,7 +259,7 @@
                 <tr>
                     <td><input/></td>
                     <td><input/></td>
-                    <td><a href=""><img src="<?php include('url.php'); ?>image/signout.gif"/></a></td>
+                    <td><a href=""><img src="<?php include('url.php'); ?>image/login.gif"/></a></td>
                 </tr>
 
             </table>
@@ -291,12 +293,12 @@
             <li>
                 <table>
                     <tr>
-                        <td><img src="<?php include('url.php'); ?>image/order.gif" id="img2"/></td>
-                        <td><img src="<?php include('url.php'); ?>image/shiping.gif" id="img3"/></td>
+                        <td><a href="<?php include('url.php'); ?>home/order.php"><img src="<?php include('url.php'); ?>image/order.gif" id="img2"/></a></td>
+                        <td><a href="<?php include('url.php'); ?>home/shipping.php"><img src="<?php include('url.php'); ?>image/shiping.gif" id="img3"/></a></td>
                     </tr>
                     <tr>
-                        <td><img src="" id="img4_shadow"/><img src="<?php include('url.php'); ?>image/condition.gif" id="img4"/></td>
-                        <td><img src="<?php include('url.php'); ?>image/paymen.gif" id="img5"/></td>
+                        <td><a href="<?php include('url.php'); ?>home/condition.php"><img src="" id="img4_shadow"/><img src="<?php include('url.php'); ?>image/condition.gif" id="img4"/></a></td>
+                        <td><a href="<?php include('url.php'); ?>home/payment.php"><img src="<?php include('url.php'); ?>image/paymen.gif" id="img5"/></a></td>
                     </tr>
                 </table>
             </li>
@@ -306,7 +308,84 @@
                 </div>
             </li>
         </ul>
-
+        <script type="text/javascript">
+            $("#img2").mouseover(function(){
+                $(this).css({
+                    "height":" 100px",
+                    "width": "120px",
+                    "padding-top": "3px",
+                    "margin-left": "3px"
+                });
+            });
+            $("#img2").mouseout(function(){
+                $(this).css({
+                    "height":" 100px",
+                    "width": "120px",
+                    "padding-top": "10px",
+                    "margin-left": "10px"
+                });
+            });
+            $("#img3").mouseover(function(){
+                $(this).css({
+                    "height":" 100px",
+                    "width": "120px",
+                    "padding-top": "127px",
+                    "margin-left": "5px"
+                });
+            });
+            $("#img3").mouseout(function(){
+                $(this).css({
+                    "height":" 100px",
+                    "width": "120px",
+                    "padding-top": "120px",
+                    "margin-left": "12px"
+                });
+            });
+            $("#img4").mouseover(function(){
+                $(this).css({
+                    "height":" 100px",
+                    "width": "120px",
+                    "padding-top": "5px",
+                    "margin-left": "0px"
+                });
+                $("#img4_shadow").css({
+                    "height":"100px",
+                    "width":"50px",
+                    "padding-top":"5px",
+                    "margin-left":"0px"
+                });
+            });
+            $("#img4").mouseout(function(){
+                $(this).css({
+                    "height":" 100px",
+                    "width": "120px",
+                    "padding-top": "12px",
+                    "margin-left": "-10px"
+                });
+                $("#img4_shadow").css({
+                    "height":"100px",
+                    "width":"50px",
+                    "padding-top":"12px",
+                    "margin-left":"-10px"
+                });
+            });
+            $("#img5").mouseover(function(){
+                $(this).css({
+                    "height":" 100px",
+                    "width": "120px",
+                    "padding-top": "127px",
+                    "margin-left": "0px"
+                });
+            });
+            $("#img5").mouseout(function(){
+                $(this).css({
+                    "height":" 100px",
+                    "width": "120px",
+                    "padding-top": "120px",
+                    "margin-left": "-10px"
+                });
+            });
+        </script>
         <table class="menu_img">
             <tr>
                 <td><img src="<?php include('url.php'); ?>image/fb.gif"/></td>

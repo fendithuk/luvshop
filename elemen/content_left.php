@@ -13,6 +13,7 @@
                             margin-left: auto;
                             margin-right: auto;
                             margin-bottom: 15px;
+                            
                             border-radius: 15px;
                             text-align: center;
                             padding: 5px;
@@ -45,13 +46,13 @@
                                 <li style="height: 30px"><a href="" style="color: #f08cca;">Confirmation of Payments</a></li>
                             </ul>
                         </li>
-                        <li style="background-image: url('<?php include('url.php'); ?>image/menu.jpg');" id="lili">
-                            
+                        <li style="background-image: url('<?php include('url.php'); ?>image/menu.jpg');margin-top: 30px" id="lili" >
+                            <?php include('my-cart.php'); ?>
                         </li>
-                        <li style="text-align: center">
+                        <li style="text-align: center;margin-top: 30px ">
                             <img src="<?php include('url.php'); ?>image/bni.gif"/><br/><p>0201226431<br/>Siska Pratiwi</p>
-                            <img src="<?php include('url.php'); ?>image/mandiri.gif"/><p>149004914372<br/>Sheli Rosita</p>
-                            <img src="<?php include('url.php'); ?>image/tiki.gif"/>
+                            <img src="<?php include('url.php'); ?>image/mandiri.gif" style="margin-top: 20px"/><p>149004914372<br/>Sheli Rosita</p>
+                            <img src="<?php include('url.php'); ?>image/tiki.gif" style="margin-top: 20px"/>
                         </li>
                     </ul>
                 </div>
