@@ -91,7 +91,7 @@
                             }
                         </style>
                         <ul style="list-style: none">
-                            <li style="display: inline-block"><img src="<?php include('../elemen/url.php'); ?>image/home/tas5.gif" id="img_utama"/></li>
+                            <li style="display: inline-block"><img src="<?php include('../elemen/url.php'); ?>image/home/tas8.gif" id="img_utama"/></li>
                             <li style="display: inline-block;margin-left: 288px">
                                 <ul style="margin-top: 10px">
                                     <li>

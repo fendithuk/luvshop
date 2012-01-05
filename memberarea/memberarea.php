@@ -15,11 +15,11 @@
 
 
             <div class="content">
-                <?php include('../elemen/content_left.php'); ?>
+                <?php include('../elemen/content_left_memberarea.php'); ?>
 
-                <?php include('../elemen/content_right.php'); ?>
+                <?php include('../elemen/content_right_memberarea.php'); ?>
             </div>
-        </div>
+        
         <?php
         include('../elemen/footer.php');
         ?>
