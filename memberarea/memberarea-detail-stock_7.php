@@ -6,6 +6,7 @@
         <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/style_utama.css"/>
         <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/reset.css"/>
         <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.tools.min.js"></script>
+        <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/addcart.js"></script>
     </head>
     <body>
         <div class="wrap"> <!--start wrap-->
@@ -74,7 +75,7 @@
                                 height: 356px;
                                 width: 319px;
                                 position: absolute;
-                                margin-top: -306px;
+                                margin-top: -346px;
                                 margin-left: -10px
                             }
                             .submenu_right table
@@ -89,9 +90,19 @@
                                 width: 79px;
                                 margin-right: 3px;
                             }
+                            img#img_utama_shadow
+                            {
+                                height: 356px;
+                                width: 319px;
+                                position: absolute;
+                                margin-top: -346px;
+                                margin-left: -15px;
+                                display: none;
+                            }
                         </style>
                         <ul style="list-style: none">
                             <li style="display: inline-block"><img src="<?php include('../elemen/url.php'); ?>image/home/tas7.gif" id="img_utama"/></li>
+                            <li style="display: inline-block"><img src="<?php include('../elemen/url.php'); ?>image/home/tas7.gif" id="img_utama_shadow"/></li>
                             <li style="display: inline-block;margin-left: 288px">
                                 <ul style="margin-top: 10px">
                                     <li>
@@ -124,7 +135,7 @@
                                                 <p style="font-weight: bold; display: inline-block">Quantity:</p>
                                                 <input style="border: 1px solid #bec6d3; width: 50px;"/>
                                             </li>
-                                            <li><img src="<?php include('../elemen/url.php'); ?>image/addcart.gif" style="height: 23px; width: 87px;position: absolute; margin-top: 11px;"/></li>
+                                            <li><img src="<?php include('../elemen/url.php'); ?>image/addcart.gif" style="height: 23px; width: 87px;position: absolute; margin-top: 11px;cursor: pointer" class="addcart"/></li>
 
                                         </ul>
                                     </li>
