@@ -6,6 +6,17 @@
         <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/style_utama.css"/>
         <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/reset.css"/>
         <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.tools.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                
+                   
+                    $("p#cartempty").fadeOut(2000);
+                   
+                    $("div#cartfadein").show(3000);
+                    
+               
+            });
+        </script>
     </head>
     <body>
         <div class="wrap"> <!--start wrap-->
@@ -110,7 +121,7 @@
                         .content_right .submenu_right table tr td
                         {
                             width: 110px;
-                            
+
                             font-size: 12px;
                             font-family: sans-serif;
 
@@ -205,7 +216,7 @@
                             <tr>
                                 <td><p style="margin-top: 5px;"></p></td>
                             </tr>
-                            
+
                             <tr style="border-bottom: 1px solid black;"> 
                                 <td></td>
                             </tr>
@@ -213,7 +224,7 @@
                                 <td><br/></td>
                             </tr>
                             <tr>
-                                <td colspan="5"><p><a href="" class="check">Continue Shoping</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="" class="check">Check Out</a></p></td>
+                                <td colspan="5"><p><a href="<?php include('../elemen/url.php'); ?>memberarea/memberarea-continue-shopping.php" class="check">Continue Shoping</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="<?php include ('../elemen/url.php'); ?>memberarea/memberarea-cart.php" class="check">Check Out</a></p></td>
                             </tr>
                         </table>
                     </div>

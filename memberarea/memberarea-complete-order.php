@@ -6,6 +6,17 @@
         <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/style_utama.css"/>
         <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/reset.css"/>
         <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.tools.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                
+                   
+                    $("p#cartempty").fadeOut(2000);
+                   
+                    $("div#cartfadein").show(3000);
+                    
+               
+            });
+        </script>
     </head>
     <body>
         <div class="wrap"> <!--start wrap-->

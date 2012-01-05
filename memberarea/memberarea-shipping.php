@@ -6,6 +6,17 @@
         <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/style_utama.css"/>
         <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/reset.css"/>
         <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.tools.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                
+                   
+                    $("p#cartempty").fadeOut(2000);
+                   
+                    $("div#cartfadein").show(3000);
+                    
+               
+            });
+        </script>
     </head>
     <body>
         <div class="wrap"> <!--start wrap-->
@@ -258,8 +269,8 @@
                             
                         </table>
                         <div class="tombol">
-                            <img src="<?php include('../elemen/url.php'); ?>image/cart/back.gif"/>
-                            <img src="<?php include('../elemen/url.php'); ?>image/cart/next.gif"/>
+                            <a href="<?php include('../elemen/url.php'); ?>memberarea/memberarea-cart.php"><img src="<?php include('../elemen/url.php'); ?>image/cart/back.gif"/></a>
+                            <a href="<?php include('../elemen/url.php'); ?>memberarea/memberarea-complete-order.php"><img src="<?php include('../elemen/url.php'); ?>image/cart/next.gif"/></a>
                         </div>
 
                     </div>
