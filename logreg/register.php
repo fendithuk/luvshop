@@ -10,331 +10,479 @@
     <body>
         <div class="wrap"> <!--start wrap-->
 
-            <div class="header">
-                <style>
-                    .header img
-                    {
-                        height: 160px;
-                        width: 370px;
-                        position: absolute;
-                        margin-top: -20px;
-                        margin-left: -10px;
-                    }
-                    .header .home_img
-                    {
+            
+<div class="header">
+    <style>
+        .header img
+        {
+            height: 160px;
+            width: 370px;
+            position: absolute;
+            margin-top: -20px;
+            margin-left: -10px;
+        }
+        .header .home_img
+        {
 
-                        height: 270px;
-                        width: 670px;
-                        position: absolute;
-                        margin-top: 140px;
-                        margin-left: 60px;
-                        padding: 8px;
-                        background-image: url('<?php include('../elemen/url.php'); ?>image/backgroundBanner.jpg');
-                        box-shadow:  0px 0px 20px 20px #E1E1E0;
-                        opacity: 0.8;
-                    }
+            height: 270px;
+            width: 670px;
+            position: absolute;
+            margin-top: 140px;
+            margin-left: 60px;
+            padding: 8px;
+            background-image: url('<?php include('../elemen/url.php'); ?>image/backgroundBanner.jpg');
+            box-shadow:  0px 0px 20px 20px #E1E1E0;
+            opacity: 0.8;
+        }
 
-                    .header .home_img ul
-                    {
-                        margin: 0;
-                        padding: 0;
+        .header .home_img ul
+        {
+            margin: 0;
+            padding: 0;
 
-                    }
+        }
 
-                    .header .home_img ul li
-                    {
-                        list-style: none;
-                    }
-
-
-                    .header .home_img table
-                    {
-                        margin: 0 0 0 285px;
-                        padding: 0;
-                    }
-                    .header .home_img table tr
-                    {
-                        margin: 0;
-                        padding: 0;
-                    }
-                    .header .home_img table tr td
-                    {
-                        margin: 0;
-                        padding: 0;
-                        z-index: -10
-                    }
-                    .header .home_img #img1
-                    {
-                        height: 210px;
-                        width: 300px;
-                        position: absolute;
-                        padding-top: 10px;
-                        margin-left: -10px;
-                        box-shadow: 0px 25px 10px -20px #51514f;
-                        -webkit-box-shadow: 0px 25px 10px -20px #51514f;
-                        -moz-box-shadow: 0px 25px 10px -20px #51514f;
-                        -o-box-shadow: 0px 25px 10px -20px #51514f;
-
-                        border-bottom-right-radius: 25px;
-                        -webkit-border-bottom-right-radius: 25px;
-                        -moz-border-bottom-right-radius: 25px;
-                        -o-border-bottom-right-radius: 25px;
-
-                        border-bottom-left-radius: 25px;
-                        -webkit-border-bottom-left-radius: 25px;
-                        -moz-border-bottom-left-radius: 25px;
-                        -o-border-bottom-left-radius: 25px;
-                    }
-
-                    .header .home_img #img2
-                    {
-                        position: absolute;
-                        height: 100px;
-                        width: 120px;
-                        padding-top: 10px;
-                        margin-left: 10px;
-                        border-radius: 10px;
-                        -webkit-border-radius: 10px;
-                        -moz-border-radius: 10px;
-                        -o-border-radius: 10px;
-
-                        box-shadow: 0px 15px 10px -10px #51514f;
-                        -webkit-box-shadow: 0px 15px 10px -10px #51514f;
-                        -moz-box-shadow: 0px 15px 10px -10px #51514f;
-                        -o-box-shadow: 0px 15px 10px -10px #51514f;
+        .header .home_img ul li
+        {
+            list-style: none;
+        }
 
 
+        .header .home_img table
+        {
+            margin: 0 0 0 285px;
+            padding: 0;
+        }
+        .header .home_img table tr
+        {
+            margin: 0;
+            padding: 0;
+        }
+        .header .home_img table tr td
+        {
+            margin: 0;
+            padding: 0;
+            z-index: -10
+        }
+        .header .home_img #img1
+        {
+            height: 210px;
+            width: 300px;
+            position: absolute;
+            padding-top: 10px;
+            margin-left: -10px;
+            box-shadow: 0px 25px 10px -20px #51514f;
+            -webkit-box-shadow: 0px 25px 10px -20px #51514f;
+            -moz-box-shadow: 0px 25px 10px -20px #51514f;
+            -o-box-shadow: 0px 25px 10px -20px #51514f;
 
-                    }
-                    .header .home_img #img3
-                    {
-                        position: absolute;
-                        height: 100px;
-                        width: 120px;
-                        padding-top: 120px;
-                        margin-left: 12px;
-                        -webkit-border-radius: 10px;
-                        -moz-border-radius: 10px;
-                        -o-border-radius: 10px;
+            border-bottom-right-radius: 25px;
+            -webkit-border-bottom-right-radius: 25px;
+            -moz-border-bottom-right-radius: 25px;
+            -o-border-bottom-right-radius: 25px;
 
-                        box-shadow: 0px 15px 10px -10px #51514f;
-                        -webkit-box-shadow: 0px 15px 10px -10px #51514f;
-                        -moz-box-shadow: 0px 15px 10px -10px #51514f;
-                        -o-box-shadow: 0px 15px 10px -10px #51514f;
-                    }
-                    .header .home_img #img4
-                    {
-                        position: absolute;
-                        height: 100px;
-                        width: 120px;
-                        padding-top: 12px;
-                        padding-left: 150px;
-                        -webkit-border-radius: 10px;
-                        -moz-border-radius: 10px;
-                        -o-border-radius: 10px;
-                    }
-                    .header .home_img #img4_shadow
-                    {
-                        position: absolute;
-                        height: 100px;
-                        width: 50px;
-                        padding-top: 12px;
-                        padding-left: 150px;
-                        -webkit-border-radius: 10px;
-                        -moz-border-radius: 10px;
-                        -o-border-radius: 10px;
+            border-bottom-left-radius: 25px;
+            -webkit-border-bottom-left-radius: 25px;
+            -moz-border-bottom-left-radius: 25px;
+            -o-border-bottom-left-radius: 25px;
+        }
+
+        .header .home_img #img2
+        {
+            position: absolute;
+            height: 100px;
+            width: 120px;
+            padding-top: 10px;
+            margin-left: 10px;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -o-border-radius: 10px;
+
+            box-shadow: 0px 15px 10px -10px #51514f;
+            -webkit-box-shadow: 0px 15px 10px -10px #51514f;
+            -moz-box-shadow: 0px 15px 10px -10px #51514f;
+            -o-box-shadow: 0px 15px 10px -10px #51514f;
+
+            z-index: 1;
+
+        }
+        .header .home_img #img3
+        {
+            position: absolute;
+            height: 100px;
+            width: 120px;
+            padding-top: 120px;
+            margin-left: 12px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -o-border-radius: 10px;
+
+            box-shadow: 0px 15px 10px -10px #51514f;
+            -webkit-box-shadow: 0px 15px 10px -10px #51514f;
+            -moz-box-shadow: 0px 15px 10px -10px #51514f;
+            -o-box-shadow: 0px 15px 10px -10px #51514f;
+        }
+        .header .home_img #img4
+        {
+            position: absolute;
+            height: 100px;
+            width: 120px;
+            padding-top: 12px;
+            padding-left: 150px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -o-border-radius: 10px;
+        }
+        .header .home_img #img4_shadow
+        {
+            position: absolute;
+            height: 100px;
+            width: 50px;
+            padding-top: 12px;
+            padding-left: 150px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -o-border-radius: 10px;
 
 
-                        box-shadow: 110px 49px 10px -44px #51514F;
-                        /*                        -webkit-box-shadow: 110px 55px 10px -50px #51514f;
-                                                -moz-box-shadow: 110px 55px 10px -50px #51514f;
-                                                -o-box-shadow: 110px 55px 10px -50px #51514f;*/
-                    }
-                    .header .home_img #img5
-                    {
-                        position: absolute;
-                        height: 100px;
-                        width: 120px;
-                        padding-top: 120px;
-                        padding-left: 150px;
-                        -webkit-border-radius: 10px;
-                        -moz-border-radius: 10px;
-                        -o-border-radius: 10px;
+            box-shadow: 110px 49px 10px -44px #51514F;
+            /*                        -webkit-box-shadow: 110px 55px 10px -50px #51514f;
+                                    -moz-box-shadow: 110px 55px 10px -50px #51514f;
+                                    -o-box-shadow: 110px 55px 10px -50px #51514f;*/
+        }
+        .header .home_img #img5
+        {
+            position: absolute;
+            height: 100px;
+            width: 120px;
+            padding-top: 120px;
+            padding-left: 150px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -o-border-radius: 10px;
 
-                        box-shadow: 75px 85px 10px -80px #51514f;
-                        -webkit-box-shadow: 75px 85px 10px -80px #51514f;
-                        -moz-box-shadow: 75px 85px 10px -80px #51514f;
-                        -o-box-shadow: 75px 85px 10px -80px #51514f;
-                    }
-                    .header .home_img .menu_img
-                    {
-                        position: absolute;
-                        margin-top: 229px;
-                        margin-left: 5px;
-                        padding: 0;
-                        width: 720px;
-                    }
-                    .header .home_img .menu_img img
-                    {
-                        height: 57px;
-                        width: 167px;
-                        border-radius: 8px;
-                        -webkit-border-radius: 8px;
-                        -moz-border-radius: 8px;
-                        -o-border-radius: 8px;
+            box-shadow: 75px 85px 10px -80px #51514f;
+            -webkit-box-shadow: 75px 85px 10px -80px #51514f;
+            -moz-box-shadow: 75px 85px 10px -80px #51514f;
+            -o-box-shadow: 75px 85px 10px -80px #51514f;
 
-                        box-shadow: 0 16px 10px -10px #51514F;
-                        -webkit-box-shadow: 0 16px 10px -10px #51514F;
-                        -moz-box-shadow: 0 16px 10px -10px #51514F;
-                        -o-box-shadow: 0 16px 10px -10px #51514F;
-                    }
-                    .header .ym
-                    {
-                        border: 1px solid black;
-                        float: right;
-                        width: 114px;
-                        height: 197px;
-                        /*                        text-align: center;*/
-                    }
-                    .logreg
-                    {
-                        height: 100px;
-                        width: 385px;
+            z-index: -1;
+        }
+        .header .home_img .menu_img
+        {
+            position: absolute;
+            margin-top: 229px;
+            margin-left: 5px;
+            padding: 0;
+            width: 720px;
+        }
+        .header .home_img .menu_img img
+        {
+            height: 57px;
+            width: 167px;
+            border-radius: 8px;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            -o-border-radius: 8px;
 
-                        float: right;
-                        margin-right: 30px;
-                        padding: 10px;
-                        margin-top: 16px;
-                    }
-                    .logreg table
-                    {
-                        margin: 0;
-                        padding: 0;
-                    }
-                    .logreg table td
-                    {
-                        width: auto;
-                    }
-                    .logreg input
-                    {
-                        outline: none;
-                        border: none;
-                        width: 148px;
-                        margin-right: 3px;
-                    }
-                    .logreg label
-                    {
-                        color: #065dff;
-                        font-size: 13px;
-                    }
-                    .logreg ul
-                    {
-                        margin: 9px 0 0 0;
-                        padding: 0;
-                    }
-                    .logreg ul li
-                    {
-                        list-style: none;
-                        display: inline-block;
-                    }
-                    .logreg a
-                    {
-                        color: #ff0901;
-                        font-size: 13px;
-                        text-decoration: underline;
-                    }
-                    .logreg img
-                    {
-                        height: 21px;
-                        width: 60px;
-                        margin-top: -16px;
-                        margin-left: 0px;
+            box-shadow: 0 16px 10px -10px #51514F;
+            -webkit-box-shadow: 0 16px 10px -10px #51514F;
+            -moz-box-shadow: 0 16px 10px -10px #51514F;
+            -o-box-shadow: 0 16px 10px -10px #51514F;
+        }
+        .header .ym
+        {
+            border: 1px solid black;
+            float: right;
+            width: 114px;
+            height: 197px;
+            /*                        text-align: center;*/
+        }
+        .logreg
+        {
+            height: 100px;
+            width: 385px;
 
-                    }
-                </style>
-                <img src="<?php include('../elemen/url.php'); ?>image/logo.png"/>
-                <div class="logreg">
-                    <form>
-                        <table>
+            float: right;
+            margin-right: 30px;
+            padding: 10px;
+            margin-top: 16px;
+        }
+        .logreg table
+        {
+            margin: 0;
+            padding: 0;
+        }
+        .logreg table td
+        {
+            width: auto;
+        }
+        .logreg input
+        {
+            outline: none;
+            border: none;
+            width: 148px;
+            margin-right: 3px;
+        }
+        .logreg label
+        {
+            color: #065dff;
+            font-size: 13px;
+        }
+        .logreg ul
+        {
+            margin: 9px 0 0 0;
+            padding: 0;
+        }
+        .logreg ul li
+        {
+            list-style: none;
+            display: inline-block;
+        }
+        .logreg a
+        {
+            color: #ff0901;
+            font-size: 13px;
+            text-decoration: underline;
+        }
+        .logreg img
+        {
+            height: 21px;
+            width: 60px;
+            margin-top: -16px;
+            margin-left: 0px;
 
-                            <tr>
-                                <td><label>Username</label></td>
-                                <td><label>Password</label></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><br/></td>
-                            </tr>
-                            <tr>
-                                <td><input/></td>
-                                <td><input/></td>
-                                <td><a href=""><img src="<?php include('../elemen/url.php'); ?>image/login.gif"/></a></td>
-                            </tr>
+        }
+    </style>
+    <img src="<?php include('../elemen/url.php'); ?>image/logo.png"/>
+    <div class="logreg">
+        <form>
+            <table>
 
-                        </table>
-                    </form>
+                <tr>
+                    <td><label>Username</label></td>
+                    <td><label>Password</label></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><br/></td>
+                </tr>
+                <tr>
+                    <td><input/></td>
+                    <td><input/></td>
+                    <td><a href=""><img src="<?php include('../elemen/url.php'); ?>image/login.gif"/></a></td>
+                </tr>
 
-                    <ul>
-                        <li><a href="">Forgot your username or password ?</a></li>
-                        <li><a href="<?php include('../elemen/url.php'); ?>logreg/register.php" style="color: black">Sign Up!</a></li>
-                    </ul>
+            </table>
+        </form>
+
+        <ul>
+            <li><a href="">Forgot your username or password ?</a></li>
+            <li><a href="<?php include('../elemen/url.php'); ?>logreg/register.php" style="color: black">Sign Up!</a></li>
+        </ul>
+    </div>
+
+    <div class="home_img">
+        <style>
+            .home_img .judul_worktime
+            {
+                padding: 0;
+                position: absolute;
+                color: #054582;
+                font-weight: bold;
+                font-size: 13px;
+                margin-left: 136px;
+                margin-top: 45px;
+                text-align: center
+            }
+        </style>
+        <ul>
+            <li>
+                <img src="<?php include('../elemen/url.php'); ?>image/workTime.gif" id="img1"/>
+                <h3 class="judul_worktime">WORK TIME<br/>09.00 AM-09.00 PM</h3>
+            </li>
+            <li>
+                <table>
+                    <tr>
+                        <td><a href="<?php include('../elemen/url.php'); ?>home/order.php"><img src="<?php include('../elemen/url.php'); ?>image/order.gif" id="img2"/></a></td>
+                        <td><a href="<?php include('../elemen/url.php'); ?>home/shipping.php"><img src="<?php include('../elemen/url.php'); ?>image/shiping.gif" id="img3"/></a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="<?php include('../elemen/url.php'); ?>home/condition.php"><img src="" id="img4_shadow"/><img src="<?php include('../elemen/url.php'); ?>image/condition.gif" id="img4"/></a></td>
+                        <td><a href="<?php include('../elemen/url.php'); ?>home/payment.php"><img src="<?php include('../elemen/url.php'); ?>image/paymen.gif" id="img5"/></a></td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <div class="ym">
+                    shinta
                 </div>
+            </li>
+        </ul>
+        <script type="text/javascript">
+            $("#img2").mouseover(function(){
+                $(this).css({
+                    "height":" 100px",
+                    "width": "120px",
+                    "padding-top": "3px",
+                    "margin-left": "3px"
+                });
+            });
+            $("#img2").mouseout(function(){
+                $(this).css({
+                    "height":" 100px",
+                    "width": "120px",
+                    "padding-top": "10px",
+                    "margin-left": "10px"
+                });
+            });
+            $("#img3").mouseover(function(){
+                $(this).css({
+                    "height":" 100px",
+                    "width": "120px",
+                    "padding-top": "127px",
+                    "margin-left": "5px"
+                });
+            });
+            $("#img3").mouseout(function(){
+                $(this).css({
+                    "height":" 100px",
+                    "width": "120px",
+                    "padding-top": "120px",
+                    "margin-left": "12px"
+                });
+            });
+            $("#img4").mouseover(function(){
+                $(this).css({
+                    "height":" 100px",
+                    "width": "120px",
+                    "padding-top": "5px",
+                    "margin-left": "0px"
+                });
+                $("#img4_shadow").css({
+                    "height":"100px",
+                    "width":"50px",
+                    "padding-top":"5px",
+                    "margin-left":"0px"
+                });
+            });
+            $("#img4").mouseout(function(){
+                $(this).css({
+                    "height":" 100px",
+                    "width": "120px",
+                    "padding-top": "12px",
+                    "margin-left": "-10px"
+                });
+                $("#img4_shadow").css({
+                    "height":"100px",
+                    "width":"50px",
+                    "padding-top":"12px",
+                    "margin-left":"-10px"
+                });
+            });
+            $("#img5").mouseover(function(){
+                $(this).css({
+                    "height":" 100px",
+                    "width": "120px",
+                    "padding-top": "127px",
+                    "margin-left": "0px"
+                });
+            });
+            $("#img5").mouseout(function(){
+                $(this).css({
+                    "height":" 100px",
+                    "width": "120px",
+                    "padding-top": "120px",
+                    "margin-left": "-10px"
+                });
+            });
+        </script>
+        <table class="menu_img">
+            <tr>
+                <td><img src="<?php include('../elemen/url.php'); ?>image/fb.gif"/></td>
+                <td><img src="<?php include('../elemen/url.php'); ?>image/sms.gif" style="margin-left: -20px;"/></td>
+                <td><img src="<?php include('../elemen/url.php'); ?>image/pin.gif" style="margin-left: -30px;"/></td>
+                <td><img src="<?php include('../elemen/url.php'); ?>image/sms2.gif" style="margin-left: -39px;"/></td>
+            </tr>
+        </table>
 
-                <div class="home_img">
+    </div>
+</div>
+
+
+
+
+            <div class="content">
+                <div class="content_left">
                     <style>
-                        .home_img .judul_worktime
+                        .content_left ul
                         {
+                            margin: 0;
                             padding: 0;
-                            position: absolute;
-                            color: #054582;
-                            font-weight: bold;
-                            font-size: 13px;
-                            margin-left: 136px;
-                            margin-top: 45px;
+                        }
+                        .content_left ul #lili
+                        {
+                            list-style: none;
+                            height: 200px;
+                            width: 170px;
+                            margin-left: auto;
+                            margin-right: auto;
+                            margin-bottom: 15px;
+                            
+                            border-radius: 15px;
+                            text-align: center;
+                            padding: 5px;
+                        }
+                        .content_left ul li img
+                        {
+                            height: 50px;
+                            width: 100px;
+
+                        }
+                        .content_left ul li p
+                        {
+
+                            margin: 0;
+                            padding: 0;
+                        }
+                        .content_left #lili a
+                        {
+                            color: #ffb3cd;
+                        }
+                        .content_left .background_menu
+                        {
+                            height: 30px;
+                            margin-top: 20px;
+                            
+                            border-radius: 5px;
+                            -webkit-border-radius: 5px;
+                            -moz-border-radius: 5px;
+                            -o-border-radius: 5px; 
                             text-align: center
                         }
                     </style>
                     <ul>
-                        <li>
-                            <img src="<?php include('../elemen/url.php'); ?>image/workTime.gif" id="img1"/>
-                            <h3 class="judul_worktime">WORK TIME<br/>09.00 AM-09.00 PM</h3>
+                        <li style="background-image: url('<?php include('../elemen/url.php'); ?>image/menu.jpg');" id="lili">
+                            <ul style="margin: 0;padding: 0;list-style: none">
+                                <li style="border-bottom: 1px solid black;height: 20px">Main Menu</li>
+                                <li class="background_menu"><a href="<?php include('../elemen/url.php'); ?>index.php" style="color: #f08cca;position: absolute; margin-top: 5px;margin-left: -75px; width: 149px;padding-top: 2px;padding-bottom: 2px">Home</a></li>
+                                <li style="height: 30px"><a href="" style="color: #f08cca;">My Account</a></li>
+                                <li style="height: 30px"><a href="" style="color: #f08cca;">Progress</a></li>
+                                <li style="height: 30px"><a href="" style="color: #f08cca;">Shipment</a></li>
+                                <li style="height: 30px"><a href="" style="color: #f08cca;">Confirmation of Payments</a></li>
+                            </ul>
                         </li>
-                        <li>
-                            <table>
-                                <tr>
-                                    <td><img src="<?php include('../elemen/url.php'); ?>image/order.gif" id="img2"/></td>
-                                    <td><img src="<?php include('../elemen/url.php'); ?>image/shiping.gif" id="img3"/></td>
-                                </tr>
-                                <tr>
-                                    <td><img src="" id="img4_shadow"/><img src="<?php include('../elemen/url.php'); ?>image/condition.gif" id="img4"/></td>
-                                    <td><img src="<?php include('../elemen/url.php'); ?>image/paymen.gif" id="img5"/></td>
-                                </tr>
-                            </table>
+                        <li style="background-image: url('<?php include('../elemen/url.php'); ?>image/menu.jpg');margin-top: 30px" id="lili" >
+                            <?php include('../elemen/my-cart.php'); ?>
                         </li>
-                        <li>
-                            <div class="ym">
-                                shinta
-                            </div>
+                        <li style="text-align: center;margin-top: 30px ">
+                            <img src="<?php include('../elemen/url.php'); ?>image/bni.gif"/><br/><p>0201226431<br/>Siska Pratiwi</p>
+                            <img src="<?php include('../elemen/url.php'); ?>image/mandiri.gif" style="margin-top: 20px"/><p>149004914372<br/>Sheli Rosita</p>
+                            <img src="<?php include('../elemen/url.php'); ?>image/tiki.gif" style="margin-top: 20px"/>
                         </li>
                     </ul>
-
-                    <table class="menu_img">
-                        <tr>
-                            <td><img src="<?php include('../elemen/url.php'); ?>image/fb.gif"/></td>
-                            <td><img src="<?php include('../elemen/url.php'); ?>image/sms.gif" style="margin-left: -20px;"/></td>
-                            <td><img src="<?php include('../elemen/url.php'); ?>image/pin.gif" style="margin-left: -30px;"/></td>
-                            <td><img src="<?php include('../elemen/url.php'); ?>image/sms2.gif" style="margin-left: -39px;"/></td>
-                        </tr>
-                    </table>
-
                 </div>
-            </div>
-
-
-            <div class="content">
-                <?php
-                include('../elemen/content_left.php');
-                ?>
                 <div class="content_right">
                     <style>
                         .content_right .register

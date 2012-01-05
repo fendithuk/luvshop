@@ -293,12 +293,12 @@
             <li>
                 <table>
                     <tr>
-                        <td><a href="<?php include('url.php'); ?>home/order.php"><img src="<?php include('url.php'); ?>image/order.gif" id="img2"/></a></td>
-                        <td><a href="<?php include('url.php'); ?>home/shipping.php"><img src="<?php include('url.php'); ?>image/shiping.gif" id="img3"/></a></td>
+                        <td><img src="<?php include('url.php'); ?>image/order.gif" id="img2"/></td>
+                        <td><img src="<?php include('url.php'); ?>image/shiping.gif" id="img3"/></td>
                     </tr>
                     <tr>
-                        <td><a href="<?php include('url.php'); ?>home/condition.php"><img src="" id="img4_shadow"/><img src="<?php include('url.php'); ?>image/condition.gif" id="img4"/></a></td>
-                        <td><a href="<?php include('url.php'); ?>home/payment.php"><img src="<?php include('url.php'); ?>image/paymen.gif" id="img5"/></a></td>
+                        <td><img src="" id="img4_shadow"/><img src="<?php include('url.php'); ?>image/condition.gif" id="img4"/></td>
+                        <td><img src="<?php include('url.php'); ?>image/paymen.gif" id="img5"/></td>
                     </tr>
                 </table>
             </li>
@@ -308,7 +308,7 @@
                 </div>
             </li>
         </ul>
-        <script type="text/javascript">
+<!--        <script type="text/javascript">
             $("#img2").mouseover(function(){
                 $(this).css({
                     "height":" 100px",
@@ -385,7 +385,7 @@
                     "margin-left": "-10px"
                 });
             });
-        </script>
+        </script>-->
         <table class="menu_img">
             <tr>
                 <td><img src="<?php include('url.php'); ?>image/fb.gif"/></td>

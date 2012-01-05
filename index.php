@@ -10,15 +10,15 @@
     <body>
         <div class="wrap"> <!--start wrap-->
             <?php
-            include('elemen/header.php');
+            include('elemen/header_login.php');
             ?>
             <div class="content">
                 <?php
                     include('elemen/content_left.php');
                 ?>
-                <div class="content_right">
-
-                </div>
+                <?php
+                    include('elemen/content_right.php');
+                ?>
             </div>
             <?php
             include('elemen/footer.php');
