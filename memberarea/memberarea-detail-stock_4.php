@@ -75,7 +75,7 @@
                                 height: 356px;
                                 width: 319px;
                                 position: absolute;
-                                margin-top: -346px;
+                                margin-top: -306px;
                                 margin-left: -10px
                             }
                             .submenu_right table
@@ -95,7 +95,7 @@
                                 height: 356px;
                                 width: 319px;
                                 position: absolute;
-                                margin-top: -346px;
+                                margin-top: -306px;
                                 margin-left: -15px;
                                 display: none;
                             }
@@ -134,6 +134,11 @@
                                             <li>
                                                 <p style="font-weight: bold; display: inline-block">Quantity:</p>
                                                 <input style="border: 1px solid #bec6d3; width: 50px;"/>
+                                            </li>
+                                            <li>
+                                                <p style="text-align: left;font-size: 10px; margin-top: 5px; display: none;position: absolute" id="confirmasi">
+                                                    Available Pre Order<br/>*waktu pembuatan 2 minggu dari tanggal<br/>Confirmation of Payment
+                                                </p>
                                             </li>
                                             <li><img src="<?php include('../elemen/url.php'); ?>image/addcart.gif" style="height: 23px; width: 87px;position: absolute; margin-top: 11px;cursor: pointer" class="addcart"/></li>
 

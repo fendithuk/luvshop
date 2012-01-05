@@ -77,7 +77,7 @@
                 <td><p>IDR 95.000</p></td>
             </tr>
         </table>
-        <a href=""><p id="showcart">SHOW CART</p></a>
+        <a href="<?php include('url.php'); ?>memberarea/memberarea-check-out.php"><p id="showcart">SHOW CART</p></a>
     </div>
     
     <p style="font-size: 13px;margin-top: 69px" id="cartempty">Your Cart is Empty</p>
