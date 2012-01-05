@@ -10,7 +10,7 @@
     <body>
         <div class="wrap"> <!--start wrap-->
 
-            <?php include('../elemen/header_login.php'); ?>
+            <?php include('../elemen/header_memberarea.php'); ?>
 
 
 
@@ -134,41 +134,49 @@
                         <style>
                             .submenu_right img
                             {
-                                height: 362px;
+                                height: 406px;
                                 width: 552px;
                             }
-                            .submenu_right .list_condition
+                            .submenu_right .list_payment
                             {
                                 position: absolute;
-                                margin-top: -228px;
-                                margin-left: 224px;
-                                
+                                margin-top: -302px;
+                                margin-left: 227px;
+
                             }
-                            .submenu_right .list_condition p
+                            .submenu_right .list_payment p
                             {
                                 font-size: 12px;
                                 color: #1f282d;
                                 font-family: sans-serif;
-                                text-align: left
+                                text-align: left;
+                                margin-bottom: 5px;
                             }
-                            .submenu_right .list_condition li
+                            .submenu_right .list_payment li
                             {
-                                font-size: 10px;
+                                font-size: 12px;
                                 list-style: decimal;
                                 font-family: sans-serif;
                                 color: #1f282d;
+                                margin-bottom: 5px;
                             }
                         </style>
-                        <img src="<?php include('../elemen/url.php'); ?>image/home/girl3.gif"/>
-                        <div class="list_condition">
-                            <p>Term & Condition</p>
-                            <br/>
+                        <img src="<?php include('../elemen/url.php'); ?>image/home/girl2.gif"/>
+                        <div class="list_payment">
+                            <p style="font-weight: bold;font-family: sans-serif">Pembayaran</p>
+                            <p>Pembayaran dilakukan ke rekening BNI<br/> dan Mandiri via TRANSFER</p>
+                            <ol>
+                                <li style="margin-left: 20px;">Mandiri : 1490004914372<br/><span style="margin-left: -20px">Atas nama Sheli Rosita</span></li>
+                                <li style="margin-left: 20px;">BNI : 0201226431<br/><span style="margin-left: -20px">Atas nama Siska Pratiwi</span></li>
+                            </ol>
+                            <p style="font-weight: bold">Konfirmase Pembayaran</p>
                             <ul>
-                                <li>Barang yang dijual adalah Ready Stock dan PO (pre order) yang <br/><br/> dibuat secara handmade, kemiripan dengan foto 80-100%.</li><br/>
-                                <li>Harga yang tertera adalah fixed price dan belum<br/><br/> termasuk ongkos kirim. Ongkir dapat dilihat di<br/><br/>www.tiki-online.com dengan mengisikan FROM "Yogyakarta".</li><br/>
-                                <li>Masa booking 2x24 jam. Lebih dari 2x24 jam tidak melakukan <br/><br/> payment, maka order akan otomatis dibatalkan</li>
+                                <li style="list-style: outside;margin-left: 15px;">Konfirmasi pembayaran paling lambat<br/>2 x 24 jam setelah pemesanan.</li>
+                                <li style="list-style: outside;margin-left: 15px;">Jika tidak ada konfirmasi maka kami<br/> berhak meng-cancel order.</li>
+                                <li style="list-style: outside;margin-left: 15px;">Konfirmasi pembayaran dapat dilakukan <br/>pada menu Confirmation of Payment.</li>
                             </ul>
                         </div>
+
                     </div>
                 </div>
             </div>

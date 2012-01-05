@@ -10,7 +10,7 @@
     <body>
         <div class="wrap"> <!--start wrap-->
 
-            <?php include('../elemen/header_login.php'); ?>
+            <?php include('../elemen/header_memberarea.php'); ?>
 
 
 
@@ -134,40 +134,41 @@
                         <style>
                             .submenu_right img
                             {
-                                height: 362px;
+                                height: 175px;
                                 width: 552px;
                             }
-                            .submenu_right .list_condition
+                            .submenu_right .list_shipping
                             {
                                 position: absolute;
-                                margin-top: -228px;
-                                margin-left: 224px;
-                                
+                                margin-top: -164px;
+                                margin-left: 23px;
+
                             }
-                            .submenu_right .list_condition p
+                            .submenu_right .list_shipping p
                             {
                                 font-size: 12px;
                                 color: #1f282d;
                                 font-family: sans-serif;
-                                text-align: left
+                                text-align: left;
+                                margin-bottom: 5px;
                             }
-                            .submenu_right .list_condition li
+                            .submenu_right .list_shipping li
                             {
-                                font-size: 10px;
-                                list-style: decimal;
+                                font-size: 11px;
+                                list-style: none;
                                 font-family: sans-serif;
                                 color: #1f282d;
+                                margin-bottom: 5px;
                             }
                         </style>
-                        <img src="<?php include('../elemen/url.php'); ?>image/home/girl3.gif"/>
-                        <div class="list_condition">
-                            <p>Term & Condition</p>
-                            <br/>
-                            <ul>
-                                <li>Barang yang dijual adalah Ready Stock dan PO (pre order) yang <br/><br/> dibuat secara handmade, kemiripan dengan foto 80-100%.</li><br/>
-                                <li>Harga yang tertera adalah fixed price dan belum<br/><br/> termasuk ongkos kirim. Ongkir dapat dilihat di<br/><br/>www.tiki-online.com dengan mengisikan FROM "Yogyakarta".</li><br/>
-                                <li>Masa booking 2x24 jam. Lebih dari 2x24 jam tidak melakukan <br/><br/> payment, maka order akan otomatis dibatalkan</li>
-                            </ul>
+                        <img src="<?php include('../elemen/url.php'); ?>image/home/keramik.gif"/>
+                        <div class="list_shipping">
+                            <p>Semua pengiriman ACE BOUTIQUE menggunakan jasa pengiriman TIKI.<br/>Tarif kirim dapat dilihat dari YOGYAKARTA ke KOTA-KOTA lain.<br/>keterangan : </p>
+                            <ol>
+                                <li style="margin-left: 0px">1.Estimasi berat 1 kg = 1-2 bags.<br/>untuk tas besar minimal 2kg (dihitung volume) </li>
+                                <li style="margin-left: 0px">2.Segera setelah barang dikirim, kami akan memberikan <br/> nomer resi TIKI agar informasi status pengiriman dapat <br/> dicek secara online di http://www.tiki-online.com</li>
+                                <li style="margin-left: 0px">3.Jadwal pengiriman JNE oleh LuvShop boutique dilakukan <br/> setiap hari (senin-jumat, kecuali hari libur) dengan syarat,<br/>payment sebelum jam 13.00 WIB.</li>
+                            </ol>
                         </div>
                     </div>
                 </div>

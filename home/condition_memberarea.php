@@ -10,7 +10,7 @@
     <body>
         <div class="wrap"> <!--start wrap-->
 
-            <?php include('../elemen/header_login.php'); ?>
+            <?php include('../elemen/header_memberarea.php'); ?>
 
 
 

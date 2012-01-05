@@ -301,12 +301,12 @@
             <li>
                 <table>
                     <tr>
-                        <td><a href="<?php include('url.php'); ?>home/order.php"><img src="<?php include('url.php'); ?>image/order.gif" id="img2"/></a></td>
-                        <td><a href="<?php include('url.php'); ?>home/shipping.php"><img src="<?php include('url.php'); ?>image/shiping.gif" id="img3"/></a></td>
+                        <td><a href="<?php include('url.php'); ?>home/order_memberarea.php"><img src="<?php include('url.php'); ?>image/order.gif" id="img2"/></a></td>
+                        <td><a href="<?php include('url.php'); ?>home/shipping_memberarea.php"><img src="<?php include('url.php'); ?>image/shiping.gif" id="img3"/></a></td>
                     </tr>
                     <tr>
-                        <td><a href="<?php include('url.php'); ?>home/condition.php"><img src="" id="img4_shadow"/><img src="<?php include('url.php'); ?>image/condition.gif" id="img4"/></a></td>
-                        <td><a href="<?php include('url.php'); ?>home/payment.php"><img src="<?php include('url.php'); ?>image/paymen.gif" id="img5"/></a></td>
+                        <td><a href="<?php include('url.php'); ?>home/condition_memberarea.php"><img src="" id="img4_shadow"/><img src="<?php include('url.php'); ?>image/condition.gif" id="img4"/></a></td>
+                        <td><a href="<?php include('url.php'); ?>home/payment_memberarea.php"><img src="<?php include('url.php'); ?>image/paymen.gif" id="img5"/></a></td>
                     </tr>
                 </table>
             </li>

@@ -10,7 +10,7 @@
     <body>
         <div class="wrap"> <!--start wrap-->
 
-            <?php include('../elemen/header_login.php'); ?>
+            <?php include('../elemen/header_memberarea.php'); ?>
 
 
 
@@ -54,8 +54,8 @@
                         {
                             height: 30px;
                             margin-top: 20px;
-/*                            background-color: #656565;
-                            border-radius: 5px;
+/*                            background-color: #656565;*/
+/*                            border-radius: 5px;
                             -webkit-border-radius: 5px;
                             -moz-border-radius: 5px;
                             -o-border-radius: 5px; */
@@ -89,7 +89,7 @@
                         .content_right .submenu_right
                         {
                             border: 1px solid #cbcbcb;
-                            padding: 15px;
+                            padding: 10px;
                             margin-top: -10px;
                             border-radius: 30px;
                             -webkit-border-radius: 30px;
@@ -130,45 +130,67 @@
                             font-size: 11px;
                         }
                     </style>
-                    <div class="submenu_right">
+                    <div class="submenu_right" style="padding: 15px">
                         <style>
                             .submenu_right img
                             {
                                 height: 362px;
                                 width: 552px;
                             }
-                            .submenu_right .list_condition
+                            .submenu_right .list_order
                             {
                                 position: absolute;
-                                margin-top: -228px;
-                                margin-left: 224px;
+                                margin-top: -302px;
+                                margin-left: 244px;
                                 
                             }
-                            .submenu_right .list_condition p
+                            .submenu_right .list_order p
                             {
-                                font-size: 12px;
+                                font-size: 10px;
                                 color: #1f282d;
                                 font-family: sans-serif;
                                 text-align: left
                             }
-                            .submenu_right .list_condition li
+                            .submenu_right .list_order li
                             {
-                                font-size: 10px;
+                                font-size: 8px;
                                 list-style: decimal;
                                 font-family: sans-serif;
                                 color: #1f282d;
                             }
                         </style>
-                        <img src="<?php include('../elemen/url.php'); ?>image/home/girl3.gif"/>
-                        <div class="list_condition">
-                            <p>Term & Condition</p>
+                        <img src="<?php include('../elemen/url.php'); ?>image/home/girl1.gif" />
+                        <div class="list_order">
+                            <p>
+                                How to Order ?
+                            </p>
                             <br/>
-                            <ul>
-                                <li>Barang yang dijual adalah Ready Stock dan PO (pre order) yang <br/><br/> dibuat secara handmade, kemiripan dengan foto 80-100%.</li><br/>
-                                <li>Harga yang tertera adalah fixed price dan belum<br/><br/> termasuk ongkos kirim. Ongkir dapat dilihat di<br/><br/>www.tiki-online.com dengan mengisikan FROM "Yogyakarta".</li><br/>
-                                <li>Masa booking 2x24 jam. Lebih dari 2x24 jam tidak melakukan <br/><br/> payment, maka order akan otomatis dibatalkan</li>
-                            </ul>
+                            <p>
+                                Buat Account Baru
+                            </p>
+                            <br/>
+                            <ol>
+                                <li>Klik tulisan "Sign Up!" dikanan atas, isi data, tekan tombol Register.</li>
+                                <li>Cek email kalian, cari email activation link dari LuvShop boutique.<br/>buka dan klik link yang ada, Kini kalian bisa login diwebsite kami. </li>
+                            </ol>
+                            <br/>
+                            <p>
+                                cara ORDER
+                            </p>
+                            <br/>
+                            <ol>
+                                <li>Login.</li>
+                                <li>Pilih barang yang ingin dipesan.</li>
+                                <li>Tekan tombol add to cart pada barang yang ingin dipesan.</li>
+                                <li>Jika sudah selesai memilih barang2 yang ingin dipesan, <br/> klik tulisan "show cart" pada kotak Your Cart</li>
+                                <li>Klik tulisan "Checkout".</li>
+                                <li>Isi data Shipping Information.</li>
+                                <li>Tekan tombol next.</li>
+                                <li>Cek kembali data orderan kalian, jika sudah betul,<br/> tekan tombol Confirm Order.</li>
+                                <li>Untuk melihat data orderan yang pernah kalian buat, <br/>cari menu My account yang ada didalam main menu.</li>
+                            </ol>
                         </div>
+
                     </div>
                 </div>
             </div>
