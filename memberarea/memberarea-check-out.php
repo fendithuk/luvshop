@@ -161,6 +161,17 @@
                             color: black;
                             text-decoration: underline;
                         }
+                        .content_right .submenu_right .buttonz
+                        {
+                            height: 16px;
+                            width: 44px;
+                            border: 1px solid #4293e2;
+                            display: inline-block;
+                            color: black;
+                            text-align: center;
+                            padding-top: 5px;
+                            font-size: 10px
+                        }
                     </style>
                     <div class="submenu_right">
                         <table>
@@ -175,9 +186,9 @@
                                 <td><br/></td>
                             </tr>
                             <tr>
-                                <td>vebtago magenta</td>
+                                <td style="width: 130px">vebtago magenta</td>
                                 <td>IDR 95.000</td>
-                                <td></td>
+                                <td style="width: 170px"><div style="height: 21px;width: 28px;border: 1px solid black;display: inline-block;position: absolute"></div><a href="" style="margin-left: 32px;margin-right: 3px;" class="buttonz">update</a><a href="" class="buttonz">delete</a></td>
                                 <td>0,5</td>
                                 <td>IDR 95.000</td>
                             </tr>

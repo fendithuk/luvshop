@@ -51,7 +51,7 @@
                             <ul style="margin: 0;padding: 0;list-style: none">
                                 <li style="border-bottom: 1px solid black;height: 20px">Main Menu</li>
                                 <li class="background_menu"><a href="<?php include('url.php'); ?>home/home.php" style="color: #f08cca;position: absolute; margin-top: 5px;margin-left: -75px; width: 149px;padding-top: 2px;padding-bottom: 2px">Home</a></li>
-                                <li style="height: 30px"><a href="" style="color: #f08cca;">My Account</a></li>
+                                <li style="height: 30px"><a href="<?php include('url.php'); ?>account/my-account.php" style="color: #f08cca;">My Account</a></li>
                                 <li style="height: 30px"><a href="" style="color: #f08cca;">Progress</a></li>
                                 <li style="height: 30px"><a href="" style="color: #f08cca;">Shipment</a></li>
                                 <li style="height: 30px"><a href="" style="color: #f08cca;">Confirmation of Payments</a></li>
