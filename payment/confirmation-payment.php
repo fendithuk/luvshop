@@ -62,14 +62,15 @@
                         }
                         .content_left .background_menu_payment
                         {
-                            height: 30px;
+                            height: 25px;
                             margin-top: 20px;
                             background-color: #656565;
                             border-radius: 5px;
                             -webkit-border-radius: 5px;
                             -moz-border-radius: 5px;
                             -o-border-radius: 5px; 
-                            text-align: center
+                            text-align: center;
+                            padding-top: 5px
                         }
 
                     </style>
@@ -77,11 +78,11 @@
                         <li style="background-image: url('<?php include('../elemen/url.php'); ?>image/menu.jpg');" id="lili">
                             <ul style="margin: 0;padding: 0;list-style: none">
                                 <li style="border-bottom: 1px solid black;height: 20px">Main Menu</li>
-                                <li style="height: 30px"><a href="#" >Home</a></li>
+                                <li style="height: 30px;margin-top: 20px"><a href="#">Home</a></li>
                                 <li style="height: 30px"><a href="" style="color: #f08cca;">My Account</a></li>
                                 <li style="height: 30px"><a href="" style="color: #f08cca;">Progress</a></li>
                                 <li style="height: 30px"><a href="" style="color: #f08cca;">Shipment</a></li>
-                                <li class="background_menu_payment"><a href="" >Confirmation of Payments</a></li>
+                                <li class="background_menu_payment" style="margin-top: -2px"><a href="" style="font-size: 13px" >Confirmation of Payments</a></li>
                             </ul>
                         </li>
                         <li style="background-image: url('<?php include('../elemen/url.php'); ?>image/menu.jpg');" id="lili">
@@ -119,10 +120,11 @@
                         }
                         .content_right .submenu_right table tr td
                         {
-                            width: 110px;
+                            width: 155px;
 
                             font-size: 12px;
                             font-family: sans-serif;
+                            
 
                         }
                         .content_right .submenu_right ul
@@ -191,6 +193,19 @@
                             position: absolute;
                             margin-top: 33px;
                         }
+                        .submenu_right input
+                        {
+                            border: 1px solid #9cb2c9;
+                            margin-bottom: 5px;
+                            width: 159px
+                        }
+                        .submenu_right select
+                        {
+                            margin-bottom: 5px;
+                            background-color: white;
+                            border: 1px solid #9cb2c9;
+                            
+                        }
 
                     </style>
                     <div class="submenu_right">
@@ -203,7 +218,7 @@
                                 <tr>
                                     <td><label>Destination Bank : </label></td>
                                     <td>
-                                        <select>
+                                        <select style="width: 86px">
                                             <option>
 
                                             </option>
@@ -221,7 +236,17 @@
                                 <tr>
                                     <td><label>Date Transfer : </label></td>
                                     <td>
-                                        <select>
+                                        <select style="width: 40px">
+                                            <option>
+
+                                            </option>
+                                        </select>
+                                        <select style="width: 40px">
+                                            <option>
+
+                                            </option>
+                                        </select>
+                                        <select style="width: 72px">
                                             <option>
 
                                             </option>
@@ -233,7 +258,7 @@
                                     <td><input type="text"/></td>
                                 </tr>
                                 <tr>
-                                    <td colspan="2"><img src="<?php include('../elemen/url.php'); ?>image/cart/submit.gif" style="float: right"/></td>
+                                    <td colspan="2"><img src="<?php include('../elemen/url.php'); ?>image/cart/submit.gif" style="float: right;width: 80px"/></td>
                                 </tr>
                             </table>
                         </form>

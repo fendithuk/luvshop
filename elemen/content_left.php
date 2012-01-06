@@ -54,7 +54,7 @@
                                 <li style="height: 30px"><a href="<?php include('url.php'); ?>account/my-account.php" style="color: #f08cca;">My Account</a></li>
                                 <li style="height: 30px"><a href="" style="color: #f08cca;">Progress</a></li>
                                 <li style="height: 30px"><a href="" style="color: #f08cca;">Shipment</a></li>
-                                <li style="height: 30px"><a href="" style="color: #f08cca;">Confirmation of Payments</a></li>
+                                <li style="height: 30px"><a href="<?php include('url.php'); ?>payment/confirmation-payment.php" style="color: #f08cca;font-size: 13px">Confirmation of Payments</a></li>
                             </ul>
                         </li>
                         <li style="background-image: url('<?php include('url.php'); ?>image/menu.jpg');margin-top: 30px" id="lili" >
