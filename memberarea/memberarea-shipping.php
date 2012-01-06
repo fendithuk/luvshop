@@ -10,9 +10,13 @@
             $(document).ready(function(){
                 
                    
-                    $("p#cartempty").fadeOut(2000);
+                   $("p#cartempty").css({
+                        "display":"none"
+                    });
                    
-                    $("div#cartfadein").show(3000);
+                    $("div#cartfadein").css({
+                        "display":"block"
+                    });
                     
                
             });

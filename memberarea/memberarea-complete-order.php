@@ -10,9 +10,13 @@
             $(document).ready(function(){
                 
                    
-                    $("p#cartempty").fadeOut(2000);
+                    $("p#cartempty").css({
+                        "display":"none"
+                    });
                    
-                    $("div#cartfadein").show(3000);
+                    $("div#cartfadein").css({
+                        "display":"block"
+                    });
                     
                
             });
@@ -233,7 +237,13 @@
                                 <td></td>
                                 <td>Shipping fee: </td>
                                 <td>0,5</td>
-                                <td>Waiting</td>
+                                <td>IDR 25.000</td>
+                            </tr>
+                            <tr>
+                                <td><br/></td>
+                            </tr>
+                            <tr style="border-bottom: 1px dashed black">
+                                <td></td>
                             </tr>
                             <tr>
                                 <td><br/></td>
@@ -243,7 +253,7 @@
                                 <td></td>
                                 <td></td>
                                 <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total: </td>
-                                <td>IDR 95.000</td>
+                                <td>IDR 120.000</td>
                             </tr>
                             <tr>
                                 <td><br/></td>
