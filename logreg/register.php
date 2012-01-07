@@ -6,6 +6,17 @@
         <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/style_utama.css"/>
         <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/reset.css"/>
         <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.tools.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("li#home").removeClass("background_menu").css({
+                    
+                    "margin-top":"20px",
+                    "margin-bottom":"10px"
+                    });
+                
+                
+                });
+        </script>
     </head>
     <body>
         <div class="wrap"> <!--start wrap-->
@@ -464,14 +475,7 @@
                     </style>
                     <ul>
                         <li style="background-image: url('<?php include('../elemen/url.php'); ?>image/menu.jpg');" id="lili">
-                            <ul style="margin: 0;padding: 0;list-style: none">
-                                <li style="border-bottom: 1px solid black;height: 20px">Main Menu</li>
-                                <li class="background_menu"><a href="<?php include('../elemen/url.php'); ?>index.php" style="color: #f08cca;position: absolute; margin-top: 0px;margin-left: -75px; width: 149px;padding-top: 2px;padding-bottom: 2px">Home</a></li>
-                                <li style="height: 30px"><a href="" style="color: #f08cca;">My Account</a></li>
-                                <li style="height: 30px"><a href="" style="color: #f08cca;">Progress</a></li>
-                                <li style="height: 30px"><a href="" style="color: #f08cca;">Shipment</a></li>
-                                <li style="height: 30px"><a href="" style="color: #f08cca;">Confirmation of Payments</a></li>
-                            </ul>
+                            <?php include('../elemen/list_menu.php'); ?>
                         </li>
                         <li style="background-image: url('<?php include('../elemen/url.php'); ?>image/menu.jpg');margin-top: 30px" id="lili" >
                             <?php include('../elemen/my-cart.php'); ?>
