@@ -66,8 +66,8 @@
     <div id="cartfadein">
         <table>
             <tr>
-                <td><p>ventago M</p></td>
-                <td><p>IDR 95.000</p></td>
+                <td id="nama_barang"></td>
+                <td id="harga_barang"></td>
             </tr>
         </table>
         <hr/>

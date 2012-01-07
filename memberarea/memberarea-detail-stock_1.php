@@ -121,7 +121,7 @@
                                     </li>
                                     <li>
                                         <ul style="margin-top: 70px; position: static">
-                                            <li><h2 style="color: #960316;margin-bottom: 10px;">Rp.95.000</h2></li>
+                                            <li><h2 style="color: #960316;margin-bottom: 10px;" id="list_harga_barang">Rp.95.000</h2></li>
                                             <li>
                                                 <p style="font-weight: bold; display: inline-block">Colour:</p>
 
@@ -148,7 +148,7 @@
                             </li>
                             <li>
                                 <ul style="margin-left: 24px;margin-top: 40px;">
-                                    <li><p style="text-align: left; font-weight: bold">VENTAGO</p></li>
+                                    <li><p style="text-align: left; font-weight: bold" id="list_nama_barang">VENTAGO</p></li>
                                     <li><p style="text-align: left; font-weight: bold">Berat 0.5 kg</p></li>
                                     <li><p style="text-align: left; font-weight: bold">Panjang: 40cm</p></li>
                                     <li><p style="text-align: left; font-weight: bold">Lebar : 9cm</p></li>

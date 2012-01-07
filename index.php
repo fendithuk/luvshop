@@ -15,12 +15,13 @@
             ?>
             <div class="content">
                 <?php
-                    include('elemen/content_left.php');
+                include('elemen/content_left.php');
                 ?>
                 <?php
-                    include('elemen/content_right.php');
+                include('elemen/content_right.php');
                 ?>
             </div>
+
             <?php
             include('elemen/footer.php');
             ?>

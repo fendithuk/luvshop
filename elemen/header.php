@@ -120,9 +120,24 @@
             width: 120px;
             padding-top: 12px;
             padding-left: 150px;
-            -webkit-border-radius: 10px;
+             -webkit-border-radius: 10px;
             -moz-border-radius: 10px;
             -o-border-radius: 10px;
+/*            -webkit-border-top-right-radius: 10px;
+            -moz-border-top-right-radius: 10px;
+            -o-border-top-right-radius: 10px;
+            
+            -webkit-border-top-left-radius: 10px;
+            -moz-border-top-left-radius: 10px;
+            -o-border-top-left-radius: 10px;
+            
+            -webkit-border-bottom-right-radius: 10px;
+            -moz-border-bottom-right-radius: 10px;
+            -o-border-bottom-right-radius: 10px;
+            
+            -webkit-border-bottom-left-radius: 30px;
+            -moz-border-bottom-left-radius:30px;
+            -o-border-bottom-left-radius: 30px;*/
         }
         .header .home_img #img4_shadow
         {
