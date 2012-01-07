@@ -68,7 +68,7 @@
                             <?php include('../elemen/list_menu.php'); ?>
                         </li>
                         <li style="background-image: url('<?php include('../elemen/url.php'); ?>image/menu.jpg');" id="lili">
-
+                            <?php include('../elemen/my-cart.php'); ?>
                         </li>
                         <li style="text-align: center">
                             <img src="<?php include('../elemen/url.php'); ?>image/bni.gif"/><br/><p>0201226431<br/>Siska Pratiwi</p>

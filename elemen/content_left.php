@@ -40,7 +40,7 @@
                         <li style="background-image: url('<?php include('url.php'); ?>image/menu.jpg');" id="lili">
                             <?php include('list_menu.php'); ?>
                         </li>
-                        <li style="background-image: url('<?php include('url.php'); ?>image/menu.jpg');margin-top: 30px" id="lili" >
+                        <li style="background-image: url('<?php include('url.php'); ?>image/menu.jpg');margin-top: 30px;" id="lili" >
                             <?php include('my-cart.php'); ?>
                         </li>
                         <li style="text-align: center;margin-top: 30px ">

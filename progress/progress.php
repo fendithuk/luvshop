@@ -103,6 +103,7 @@
                             -webkit-border-radius: 30px;
                             -moz-border-radius: 30px;
                             -o-border-radius: 30px;
+                            height: 403px
                         }
                         .content_right .submenu_right table
                         {

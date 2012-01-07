@@ -94,10 +94,7 @@
                             margin: 0;
                             padding: 0;
                         }
-                        /*                        .content_right .submenu_right table tr
-                                                {
-                                                    margin-bottom: 15px;
-                                                }*/
+                        
                         .content_right .submenu_right ul
                         {
                             margin: 0;
