@@ -34,28 +34,11 @@
                         {
                             color: #ffb3cd;
                         }
-                        .content_left .background_menu
-                        {
-                            height: 30px;
-                            margin-top: 20px;
-                            background-color: #656565;
-                            border-radius: 5px;
-                            -webkit-border-radius: 5px;
-                            -moz-border-radius: 5px;
-                            -o-border-radius: 5px; 
-                            text-align: center
-                        }
+                        
                     </style>
                     <ul>
                         <li style="background-image: url('<?php include('url.php'); ?>image/menu.jpg');" id="lili">
-                            <ul style="margin: 0;padding: 0;list-style: none">
-                                <li style="border-bottom: 1px solid black;height: 20px">Main Menu</li>
-                                <li class="background_menu"><a href="<?php include('url.php'); ?>home/home.php" style="color: #f08cca;position: absolute; margin-top: 5px;margin-left: -75px; width: 149px;padding-top: 2px;padding-bottom: 2px">Home</a></li>
-                                <li style="height: 30px"><a href="<?php include('url.php'); ?>account/my-account.php" style="color: #f08cca;">My Account</a></li>
-                                <li style="height: 30px"><a href="" style="color: #f08cca;">Progress</a></li>
-                                <li style="height: 30px"><a href="" style="color: #f08cca;">Shipment</a></li>
-                                <li style="height: 30px"><a href="<?php include('url.php'); ?>payment/confirmation-payment.php" style="color: #f08cca;font-size: 13px">Confirmation of Payments</a></li>
-                            </ul>
+                            <?php include('list_menu.php'); ?>
                         </li>
                         <li style="background-image: url('<?php include('url.php'); ?>image/menu.jpg');margin-top: 30px" id="lili" >
                             <?php include('my-cart.php'); ?>
