@@ -8,15 +8,19 @@
         <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.tools.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
-                
+                $("li#home").removeClass("background_menu").css({
+                    
+                    "margin-top":"20px",
+                    "margin-bottom":"10px"
+                });
                    
-                   $("p#cartempty").css({
-                        "display":"none"
-                    });
+                $("p#cartempty").css({
+                    "display":"none"
+                });
                    
-                    $("div#cartfadein").css({
-                        "display":"block"
-                    });
+                $("div#cartfadein").css({
+                    "display":"block"
+                });
                     
                
             });
@@ -80,14 +84,7 @@
                     </style>
                     <ul>
                         <li style="background-image: url('<?php include('../elemen/url.php'); ?>image/menu.jpg');" id="lili">
-                            <ul style="margin: 0;padding: 0;list-style: none">
-                                <li style="border-bottom: 1px solid black;height: 20px">Main Menu</li>
-                                <li class="background_menu"><a href="#" style="color: #f08cca;border: 1px solid #9d9d9d;position: absolute; margin-top: 5px;margin-left: -75px; width: 149px;padding-top: 2px;padding-bottom: 2px">Home</a></li>
-                                <li style="height: 30px"><a href="" style="color: #f08cca;">My Account</a></li>
-                                <li style="height: 30px"><a href="" style="color: #f08cca;">Progress</a></li>
-                                <li style="height: 30px"><a href="" style="color: #f08cca;">Shipment</a></li>
-                                <li style="height: 30px"><a href="" style="color: #f08cca;">Confirmation of Payments</a></li>
-                            </ul>
+                           <?php include('../elemen/list_menu.php'); ?>
                         </li>
                         <li style="background-image: url('<?php include('../elemen/url.php'); ?>image/menu.jpg');" id="lili">
                             <?php include('../elemen/my-cart.php'); ?>
@@ -174,14 +171,14 @@
                             margin-bottom: 10px;
                             margin-right: 44px;
                         }
-                        
+
                         .content_right .submenu_right .img_sort #img1a
                         {
                             height: 58px;
                             width: 67px;
                             margin-bottom: -6px;
                         }
-                        
+
                         .content_right .submenu_right .img_sort #img2a
                         {
                             height: 30px;
@@ -196,7 +193,7 @@
                             position: absolute;
                             margin-top: 33px;
                         }
-                        
+
                     </style>
                     <div class="submenu_right">
                         <div class="img_sort">
@@ -231,46 +228,46 @@
                             <tr>
                                 <td>Nama Penerima: </td>
                                 <td><input type="text"/></td>
-                                
+
                             </tr>
-                            
+
                             <tr>
                                 <td>Alamat Penerima</td>
                                 <td><input type="text"/></td>
-                                
+
                             </tr>
-                            
-                           
+
+
                             <tr>
                                 <td></td>
                                 <td>
                                     <p style="display: inline-block; color:  black">Kabupaten/Kota:</p>
                                     <select style="background-color: white;border: 1px solid #7f9db9;width: 106px;margin-bottom: 10px">
                                         <option>
-                                            
+
                                         </option>
                                     </select>
                                 </td>
-                                
+
                             </tr>
-                             <tr>
+                            <tr>
                                 <td></td>
                                 <td>
                                     <p style="display: inline-block;color: black">Provinsi:</p>
                                     <select style="background-color: white;border: 1px solid #7f9db9;width: 150px;margin-bottom: 10px">
                                         <option>
-                                            
+
                                         </option>
                                     </select>
                                 </td>
-                                
+
                             </tr>
                             <tr>
                                 <td>No. Telp Penerima</td>
                                 <td><input type="text"/></td>
-                                
+
                             </tr>
-                            
+
                         </table>
                         <div class="tombol">
                             <a href="<?php include('../elemen/url.php'); ?>memberarea/memberarea-cart.php"><img src="<?php include('../elemen/url.php'); ?>image/cart/back.gif"/></a>
