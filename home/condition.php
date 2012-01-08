@@ -6,6 +6,17 @@
         <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/style_utama.css"/>
         <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/reset.css"/>
         <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.tools.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("li#home").removeClass("background_menu").css({
+                    
+                    "margin-top":"20px",
+                    "margin-bottom":"10px"
+                    });
+                
+                
+                });
+        </script>
     </head>
     <body>
         <div class="wrap"> <!--start wrap-->
@@ -68,7 +79,7 @@
                             <?php include('../elemen/list_menu.php'); ?>
                         </li>
                         <li style="background-image: url('<?php include('../elemen/url.php'); ?>image/menu.jpg');" id="lili">
-
+                            <?php include('../elemen/my-cart.php'); ?>
                         </li>
                         <li style="text-align: center">
                             <img src="<?php include('../elemen/url.php'); ?>image/bni.gif"/><br/><p>0201226431<br/>Siska Pratiwi</p>

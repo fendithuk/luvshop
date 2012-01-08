@@ -11,6 +11,7 @@ $(document).ready(function(){
         $("img#img_utama").animate({marginTop:-72},"fast");
         $("img#img_utama").fadeOut(1000);
         $("div#cartfadein").fadeIn(3000);
+        $("a p#showcart").fadeIn(3000);
         $(this).animate({marginTop:41},"slow");
         $("p#list_nama_barang").clone().appendTo("td#nama_barang");
         $("h2#list_harga_barang").clone().appendTo("td#harga_barang");
