@@ -11,6 +11,19 @@
         <script src="<?php include ('../elemen/url.php'); ?>js/jquery-ui.min.js"></script>
         <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.easing.1.3.js"></script>
         <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.mousewheel.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                
+                
+                $("li#progress").css({
+                    "margin-top":"-1px"
+                });
+               $("li#account,li#shipment,li#confpayment").css({
+                   "margin-top":"-1px"
+               });
+               
+            });
+        </script>
     </head>
     <body>
         <div class="wrap"> <!--start wrap-->

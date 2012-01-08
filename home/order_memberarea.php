@@ -14,11 +14,10 @@
         <script type="text/javascript">
             $(document).ready(function(){
                 $("li#home").removeClass("background_menu").css({
-                    
-                    "margin-top":"20px",
-                    "margin-bottom":"10px"
                     });
-                
+                $("li#account,li#progress,li#shipment,li#confpayment").css({
+                    "margin-top":"-1px"
+                });
                 
                 });
         </script>
