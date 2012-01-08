@@ -13,15 +13,9 @@
         <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.mousewheel.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
-                $("li#home").removeClass("background_menu").css({
-                    "margin-bottom":"-10px",
-                    "margin-top":"20px"
-                });
+                $("li#home").removeClass("background_menu");
                 
-                $("li#account").addClass("background_menu").css({
-                    "padding-top":"3px",
-                    "height":"22px"
-                });
+                $("li#account").addClass("background_menu");
             });
         </script>
     </head>

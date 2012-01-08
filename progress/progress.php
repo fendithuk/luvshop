@@ -6,25 +6,23 @@
         <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/style_utama.css"/>
         <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/reset.css"/>
         <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/jquery.mCustomScrollbar.css"/>
-<!--        <script type="text/javascript" src="<?php // include('elemen/url.php');  ?>js/jquery.tools.min.js"></script>-->
+<!--        <script type="text/javascript" src="<?php // include('elemen/url.php');   ?>js/jquery.tools.min.js"></script>-->
         <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.min.js"></script>
         <script src="<?php include ('../elemen/url.php'); ?>js/jquery-ui.min.js"></script>
         <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.easing.1.3.js"></script>
         <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.mousewheel.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
-                $("li#home").removeClass("background_menu").css({
-                    
-                    "margin-top":"20px",
-                    "margin-bottom":"10px"
-                    });
+                $("li#home").removeClass("background_menu");
                 
                 $("li#progress").addClass("background_menu").css({
-                    "margin-top":"-5px",
-                    "margin-bottom":"5px",
-                    "height":"22px"
-                    });
+                    "margin-top":"-1px"
                 });
+               $("li#account,li#shipment,li#confpayment").css({
+                   "margin-top":"-1px"
+               });
+               
+            });
         </script>
     </head>
     <body>
@@ -83,6 +81,65 @@
                         }
 
                     </style>
+                    <script type="text/javascript">
+                        $(document).ready(function(){
+                            $("li#home").hover(
+                            function(){
+                                $(this).addClass("background_menu");
+                                $("li#account").removeClass("background_menu");
+                                $("li#progress").removeClass("background_menu");
+                                $("li#shipment").removeClass("background_menu");
+                                $("li#confpayment").removeClass("background_menu");
+                            },function(){
+                                return true;
+                            }
+                        );
+                            $("li#account").hover(
+                            function(){
+                                $(this).addClass("background_menu");
+                                $("li#home").removeClass("background_menu");
+                                $("li#progress").removeClass("background_menu");
+                                $("li#shipment").removeClass("background_menu");
+                                $("li#confpayment").removeClass("background_menu");
+                            },function(){
+                                return true;
+                            }
+                        );
+                            $("li#progress").hover(
+                            function(){
+                                $(this).addClass("background_menu");
+                                $("li#account").removeClass("background_menu");
+                                $("li#home").removeClass("background_menu");
+                                $("li#shipment").removeClass("background_menu");
+                                $("li#confpayment").removeClass("background_menu");
+                            },function(){
+                                return true;
+                            }
+                        );
+                            $("li#shipment").hover(
+                            function(){
+                                $(this).addClass("background_menu");
+                                $("li#account").removeClass("background_menu");
+                                $("li#progress").removeClass("background_menu");
+                                $("li#home").removeClass("background_menu");
+                                $("li#confpayment").removeClass("background_menu");
+                            },function(){
+                                return true;
+                            }
+                        );
+                            $("li#confpayment").hover(
+                            function(){
+                                $(this).addClass("background_menu");
+                                $("li#account").removeClass("background_menu");
+                                $("li#progress").removeClass("background_menu");
+                                $("li#shipment").removeClass("background_menu");
+                                $("li#home").removeClass("background_menu");
+                            },function(){
+                                return true;
+                            }
+                        );
+                        });
+                    </script>
                     <ul>
                         <li style="background-image: url('<?php include('../elemen/url.php'); ?>image/menu.jpg');" id="lili">
                             <?php include('../elemen/list_menu.php'); ?>
@@ -196,11 +253,11 @@
                             position: absolute;
                             margin-top: 33px;
                         }
-                        
+
 
                     </style>
                     <div class="submenu_right">
-                        
+
                         <h3 style="color: black;font-size: 12px;float: left;font-weight: bold">Progress</h3>
                         <br/>
                         <label style="font-size: 10px;text-align: left">Number of Purchase : </label>

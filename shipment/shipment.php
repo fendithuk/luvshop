@@ -13,17 +13,15 @@
         <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.mousewheel.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
-                $("li#home").removeClass("background_menu").css({
-                    
-                    "margin-top":"20px",
-                    "margin-bottom":"10px"
-                    });
+                 $("li#home").removeClass("background_menu");
                 
                 $("li#shipment").addClass("background_menu").css({
-                    "margin-top":"-5px",
-                    "margin-bottom":"5px",
-                    "height":"22px"
-                    });
+                    "margin-top":"-1px"
+                });
+               $("li#account,li#progress,li#confpayment").css({
+                   "margin-top":"-1px"
+               });
+               
                 });
         </script>
     </head>
