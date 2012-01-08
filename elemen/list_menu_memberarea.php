@@ -9,6 +9,42 @@
         -o-border-radius: 5px; 
         text-align: center
     }
+     .content_left li#home a
+    {
+        position: static;
+        padding-top: 6px;
+        margin-left: -10px;
+        display: block
+        
+    }
+     .content_left li#account a
+     {
+         position: static;
+        padding-top: 6px;
+        margin-left: -8px;
+        display: block
+     }
+      .content_left li#progress a
+     {
+         position: static;
+        padding-top: 6px;
+        margin-left: -9px;
+        display: block
+     }
+      .content_left li#shipment a
+     {
+         position: static;
+        padding-top: 6px;
+        margin-left: -8px;
+        display: block
+     }
+      .content_left li#confpayment a
+     {
+         position: static;
+        padding-top: 6px;
+        margin-left: 0px;
+        display: block
+     }
 </style>
 <ul style="margin: 0;padding: 0;list-style: none">
     <li style="border-bottom: 1px solid black;height: 20px;margin-bottom: 20px">Main Menu</li>
