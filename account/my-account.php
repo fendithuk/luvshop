@@ -5,19 +5,24 @@
         <title></title>
         <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/style_utama.css"/>
         <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/reset.css"/>
-        <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.tools.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/jquery.mCustomScrollbar.css"/>
+<!--        <script type="text/javascript" src="<?php // include('elemen/url.php');  ?>js/jquery.tools.min.js"></script>-->
+        <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.min.js"></script>
+        <script src="<?php include ('../elemen/url.php'); ?>js/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.mousewheel.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
                 $("li#home").removeClass("background_menu").css({
                     "margin-bottom":"-10px",
                     "margin-top":"20px"
-                    });
+                });
                 
                 $("li#account").addClass("background_menu").css({
                     "padding-top":"3px",
                     "height":"22px"
-                    });
                 });
+            });
         </script>
     </head>
     <body>
@@ -63,7 +68,7 @@
                         {
                             color: #ffb3cd;
                         }
-                        
+
 
                     </style>
                     <ul>
@@ -186,7 +191,7 @@
                                 border: 1px solid #8ea8c1;
                                 margin-bottom: 5px;
                             }
-                           
+
                         </style>
                         <form>
                             <table>
@@ -256,7 +261,7 @@
                             {
                                 border: 1px solid black
                             }
-                            
+
                             .submenu_right table.table_on tr td
                             {
                                 border: 1px solid black;
@@ -327,7 +332,7 @@
                                 <td></td>
                             </tr>
                         </table>
-                        
+
                     </div>
                 </div>
             </div>

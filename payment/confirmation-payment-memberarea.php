@@ -13,24 +13,18 @@
         <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.mousewheel.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
-                
                 $("li#home").removeClass("background_menu").css({
                     
                     "margin-top":"20px",
                     "margin-bottom":"10px"
-                });
+                    });
                 
-                   
-                $("p#cartempty").css({
-                    "display":"none"
+                $("li#confpayment").addClass("background_menu").css({
+                    "margin-top":"-5px",
+                    "margin-bottom":"5px",
+                    "height":"22px"
+                    });
                 });
-                   
-                $("div#cartfadein").css({
-                    "display":"block"
-                });
-                    
-               
-            });
         </script>
     </head>
     <body>
@@ -87,11 +81,23 @@
                             -o-border-radius: 5px; 
                             text-align: center
                         }
+                        .content_left .background_menu_payment
+                        {
+                            height: 25px;
+                            margin-top: 20px;
+                            background-color: #656565;
+                            border-radius: 5px;
+                            -webkit-border-radius: 5px;
+                            -moz-border-radius: 5px;
+                            -o-border-radius: 5px; 
+                            text-align: center;
+                            padding-top: 5px
+                        }
 
                     </style>
                     <ul>
                         <li style="background-image: url('<?php include('../elemen/url.php'); ?>image/menu.jpg');" id="lili">
-                            <?php include('../elemen/list_menu.php'); ?>
+                           <?php include('../elemen/list_menu_memberarea.php'); ?>
                         </li>
                         <li style="background-image: url('<?php include('../elemen/url.php'); ?>image/menu.jpg');" id="lili">
                             <?php include('../elemen/my-cart.php'); ?>
@@ -128,10 +134,11 @@
                         }
                         .content_right .submenu_right table tr td
                         {
-                            width: 110px;
+                            width: 155px;
 
                             font-size: 12px;
                             font-family: sans-serif;
+                            
 
                         }
                         .content_right .submenu_right ul
@@ -200,124 +207,75 @@
                             position: absolute;
                             margin-top: 33px;
                         }
+                        .submenu_right input
+                        {
+                            border: 1px solid #9cb2c9;
+                            margin-bottom: 5px;
+                            width: 159px
+                        }
+                        .submenu_right select
+                        {
+                            margin-bottom: 5px;
+                            background-color: white;
+                            border: 1px solid #9cb2c9;
+                            
+                        }
 
                     </style>
                     <div class="submenu_right">
-                        <div class="img_sort">
-                            <hr/>
-                            <img src="<?php include('../elemen/url.php'); ?>image/cart/cartorder.gif" id="img2a"/>
-                            <img src="<?php include('../elemen/url.php'); ?>image/cart/shippingorder.gif" id="img2a"/>
-                            <img src="<?php include('../elemen/url.php'); ?>image/cart/completeorder2.gif" id="img1a"/>
-                        </div>
-                        <table>
-                            <tr>
-                                <td>Name</td>
-                                <td>Price</td>
-                                <td>Quantity</td>
-                                <td>Weight</td>
-                                <td>Subtotal</td>
-                            </tr>
-                            <tr>
-                                <td><br/></td>
-                            </tr>
-                            <tr>
-                                <td>vebtago magenta</td>
-                                <td>IDR 95.000</td>
-                                <td></td>
-                                <td>0,5</td>
-                                <td>IDR 95.000</td>
-                            </tr>
-                            <tr>
-                                <td><br/></td>
-                            </tr>
-                            <tr style="border-bottom: 1px dashed black">
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><br/></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td>Shipping fee: </td>
-                                <td>0,5</td>
-                                <td>IDR 25.000</td>
-                            </tr>
-                            <tr>
-                                <td><br/></td>
-                            </tr>
-                            <tr style="border-bottom: 1px dashed black">
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><br/></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total: </td>
-                                <td>IDR 120.000</td>
-                            </tr>
-                            <tr>
-                                <td><br/></td>
-                            </tr>
-                            <tr style="border-bottom: 1px dashed black">
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><p style="margin-top: 5px;"></p></td>
-                            </tr>
+                        <form>
+                            <table>
+                                <tr>
+                                    <td><label>Number of Purchase : </label></td>
+                                    <td><input type="text" style="color: red"/></td>
+                                </tr>
+                                <tr>
+                                    <td><label>Destination Bank : </label></td>
+                                    <td>
+                                        <select style="width: 86px">
+                                            <option>
 
-                            <tr style="border-bottom: 1px solid black;"> 
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><br/></td>
-                            </tr>
+                                            </option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label>Your Bank</label></td>
+                                    <td><input type="text"/></td>
+                                </tr>
+                                <tr>
+                                    <td><label>Account Holder's Name : </label></td>
+                                    <td><input type="text"/></td>
+                                </tr>
+                                <tr>
+                                    <td><label>Date Transfer : </label></td>
+                                    <td>
+                                        <select style="width: 40px">
+                                            <option>
 
-                        </table>
-                        <style>
-                            .shipping_address
-                            {
+                                            </option>
+                                        </select>
+                                        <select style="width: 40px">
+                                            <option>
 
-                            }
-                            .submenu_right .shipping_address h3
-                            {
-                                color: black;
-                                font-weight: bold;
-                                text-align: left;
-                                font-size: 12px;
-                                margin-bottom: 20px;
-                                margin-top: 25px;
-                                font-family: sans-serif;
-                            }
-                            .submenu_right .shipping_address p
-                            {
-                                color: black;
-                                text-align: left;
-                                margin-bottom: 20px;
-                                font-family: sans-serif
-                            }
-                            .shipping_address2
-                            {
-                                text-align: center
-                            }
-                        </style>
-                        <div class="shipping_address">
-                            <h3>Shipping Address</h3>
-                            <p>Shinta Perima Sari</p>
-                            <p>Jl. Nusa Indah No.36 Condong Catur,Depok,Sleman,Yogyakarta.</p>
-                            <p>0865654701593</p>
-                        </div>
-                        <div class="shipping_address2">
-                            <p style="color: black;margin-bottom: 20px; color: black;font-weight: bold">Please leave a note to us with your order if you want to:</p>
+                                            </option>
+                                        </select>
+                                        <select style="width: 72px">
+                                            <option>
 
-                            <textarea style="margin-bottom: 20px;border: 3px solid black; width: 251px;height: 102px; azimuth: behind; max-height: 102px; min-height: 102px; max-width: 251px;min-width: 251px"/></textarea>
-                            <br/>
-
-                            <a href=""><img src="<?php include('../elemen/url.php'); ?>image/cart/submit.gif"/></a>
-                        </div>
+                                            </option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label>Amount : </label></td>
+                                    <td><input type="text"/></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><img src="<?php include('../elemen/url.php'); ?>image/cart/submit.gif" style="float: right;width: 80px"/></td>
+                                </tr>
+                            </table>
+                        </form>
 
                     </div>
                 </div>

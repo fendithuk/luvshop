@@ -6,7 +6,7 @@
         <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/style_utama.css"/>
         <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/reset.css"/>
         <link rel="stylesheet" type="text/css" href="<?php include('../elemen/url.php'); ?>css/jquery.mCustomScrollbar.css"/>
-<!--        <script type="text/javascript" src="<?php// include('elemen/url.php'); ?>js/jquery.tools.min.js"></script>-->
+<!--        <script type="text/javascript" src="<?php // include('elemen/url.php');  ?>js/jquery.tools.min.js"></script>-->
         <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.min.js"></script>
         <script src="<?php include ('../elemen/url.php'); ?>js/jquery-ui.min.js"></script>
         <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.easing.1.3.js"></script>
@@ -19,14 +19,18 @@
                     "margin-bottom":"10px"
                     });
                 
-                
+                $("li#progress").addClass("background_menu").css({
+                    "margin-top":"-5px",
+                    "margin-bottom":"5px",
+                    "height":"22px"
+                    });
                 });
         </script>
     </head>
     <body>
         <div class="wrap"> <!--start wrap-->
 
-            <?php include('../elemen/header_login.php'); ?>
+            <?php include('../elemen/header_memberarea.php'); ?>
 
 
 
@@ -70,18 +74,18 @@
                         {
                             height: 30px;
                             margin-top: 20px;
-/*                            background-color: #656565;
+                            background-color: #656565;
                             border-radius: 5px;
                             -webkit-border-radius: 5px;
                             -moz-border-radius: 5px;
-                            -o-border-radius: 5px; */
+                            -o-border-radius: 5px; 
                             text-align: center
                         }
 
                     </style>
                     <ul>
                         <li style="background-image: url('<?php include('../elemen/url.php'); ?>image/menu.jpg');" id="lili">
-                            <?php include('../elemen/list_menu.php'); ?>
+                            <?php include('../elemen/list_menu_memberarea.php'); ?>
                         </li>
                         <li style="background-image: url('<?php include('../elemen/url.php'); ?>image/menu.jpg');" id="lili">
                             <?php include('../elemen/my-cart.php'); ?>
@@ -104,13 +108,27 @@
                             -webkit-border-radius: 30px;
                             -moz-border-radius: 30px;
                             -o-border-radius: 30px;
+                            height: 403px
                         }
                         .content_right .submenu_right table
                         {
                             margin: 0;
                             padding: 0;
                         }
-                        
+                        .content_right .submenu_right table tr
+                        {
+                            margin: 0;
+                            padding: 0;
+
+                        }
+                        .content_right .submenu_right table tr td
+                        {
+                            width: 110px;
+
+                            font-size: 12px;
+                            font-family: sans-serif;
+
+                        }
                         .content_right .submenu_right ul
                         {
                             margin: 0;
@@ -135,46 +153,68 @@
                             text-align: center;
                             font-size: 11px;
                         }
+                        .content_right .submenu_right .tombol
+                        {
+                            margin-top: 172px;
+                            text-align: center;
+                        }
+                        .content_right .submenu_right .tombol img
+                        {
+                            height: 24px;
+                            width: 88px;
+                        }
+                        .content_right .submenu_right .img_sort
+                        {
+                            margin-bottom: 20px;
+                            text-align: center;
+                            margin-top: 20px
+                        }
+                        .content_right .submenu_right .img_sort img
+                        {
+                            margin-bottom: 10px;
+                            margin-right: 40px
+                        }
+
+                        .content_right .submenu_right .img_sort #img1a
+                        {
+                            height: 58px;
+                            width: 67px;
+                            margin-bottom: -6px;
+                        }
+
+                        .content_right .submenu_right .img_sort #img2a
+                        {
+                            height: 30px;
+                            width: 39px;
+                            margin-bottom: 4px;
+                        }
+                        .content_right .submenu_right .img_sort hr
+                        {
+                            width: 535px;
+                            margin-left: 0px;
+                            border: 1px solid #3473ba;
+                            position: absolute;
+                            margin-top: 33px;
+                        }
+                        
+
                     </style>
                     <div class="submenu_right">
-                        <style>
-                            .submenu_right img
-                            {
-                                height: 362px;
-                                width: 552px;
-                            }
-                            .submenu_right .list_condition
-                            {
-                                position: absolute;
-                                margin-top: -228px;
-                                margin-left: 224px;
-                                
-                            }
-                            .submenu_right .list_condition p
-                            {
-                                font-size: 12px;
-                                color: #1f282d;
-                                font-family: sans-serif;
-                                text-align: left
-                            }
-                            .submenu_right .list_condition li
-                            {
-                                font-size: 10px;
-                                list-style: decimal;
-                                font-family: sans-serif;
-                                color: #1f282d;
-                            }
-                        </style>
-                        <img src="<?php include('../elemen/url.php'); ?>image/home/girl3.gif"/>
-                        <div class="list_condition">
-                            <p>Term & Condition</p>
-                            <br/>
-                            <ul>
-                                <li>Barang yang dijual adalah Ready Stock dan PO (pre order) yang <br/><br/> dibuat secara handmade, kemiripan dengan foto 80-100%.</li><br/>
-                                <li>Harga yang tertera adalah fixed price dan belum<br/><br/> termasuk ongkos kirim. Ongkir dapat dilihat di<br/><br/>www.tiki-online.com dengan mengisikan FROM "Yogyakarta".</li><br/>
-                                <li>Masa booking 2x24 jam. Lebih dari 2x24 jam tidak melakukan <br/><br/> payment, maka order akan otomatis dibatalkan</li>
-                            </ul>
+                        
+                        <h3 style="color: black;font-size: 12px;float: left;font-weight: bold">Progress</h3>
+                        <br/>
+                        <label style="font-size: 10px;text-align: left">Number of Purchase : </label>
+                        <input type="text" style="border: 1px solid #8ea8c1;width: 100px"/>
+                        <div class="img_sort">
+                            <hr/>
+                            <img src="<?php include('../elemen/url.php'); ?>image/progress/robotpesan.gif" id="img2a"/>
+                            <img src="<?php include('../elemen/url.php'); ?>image/progress/robotbayar.gif" id="img2a"/>
+                            <img src="<?php include('../elemen/url.php'); ?>image/progress/robotprogress.gif" id="img1a"/>
+                            <img src="<?php include('../elemen/url.php'); ?>image/progress/robotprogress2.gif" id="img2a"/>
+                            <img src="<?php include('../elemen/url.php'); ?>image/progress/robotprogress3.gif" id="img2a"/>
+                            <img src="<?php include('../elemen/url.php'); ?>image/progress/robotkirim.gif" id="img2a"/>
                         </div>
+                        <p style="color: black; float: left">Keterangan : </p>
                     </div>
                 </div>
             </div>

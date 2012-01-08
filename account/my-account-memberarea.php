@@ -13,23 +13,15 @@
         <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.mousewheel.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
-                
                 $("li#home").removeClass("background_menu").css({
-                    
-                    "margin-top":"20px",
-                    "margin-bottom":"10px"
+                    "margin-bottom":"-10px",
+                    "margin-top":"20px"
                 });
                 
-                   
-                $("p#cartempty").css({
-                    "display":"none"
+                $("li#account").addClass("background_menu").css({
+                    "padding-top":"3px",
+                    "height":"22px"
                 });
-                   
-                $("div#cartfadein").css({
-                    "display":"block"
-                });
-                    
-               
             });
         </script>
     </head>
@@ -76,22 +68,12 @@
                         {
                             color: #ffb3cd;
                         }
-                        .content_left .background_menu
-                        {
-                            height: 30px;
-                            margin-top: 20px;
-                            background-color: #656565;
-                            border-radius: 5px;
-                            -webkit-border-radius: 5px;
-                            -moz-border-radius: 5px;
-                            -o-border-radius: 5px; 
-                            text-align: center
-                        }
+
 
                     </style>
                     <ul>
                         <li style="background-image: url('<?php include('../elemen/url.php'); ?>image/menu.jpg');" id="lili">
-                            <?php include('../elemen/list_menu.php'); ?>
+                            <?php include('../elemen/list_menu_memberarea.php'); ?>
                         </li>
                         <li style="background-image: url('<?php include('../elemen/url.php'); ?>image/menu.jpg');" id="lili">
                             <?php include('../elemen/my-cart.php'); ?>
@@ -203,121 +185,153 @@
 
                     </style>
                     <div class="submenu_right">
-                        <div class="img_sort">
-                            <hr/>
-                            <img src="<?php include('../elemen/url.php'); ?>image/cart/cartorder.gif" id="img2a"/>
-                            <img src="<?php include('../elemen/url.php'); ?>image/cart/shippingorder.gif" id="img2a"/>
-                            <img src="<?php include('../elemen/url.php'); ?>image/cart/completeorder2.gif" id="img1a"/>
-                        </div>
-                        <table>
-                            <tr>
-                                <td>Name</td>
-                                <td>Price</td>
-                                <td>Quantity</td>
-                                <td>Weight</td>
-                                <td>Subtotal</td>
-                            </tr>
-                            <tr>
-                                <td><br/></td>
-                            </tr>
-                            <tr>
-                                <td>vebtago magenta</td>
-                                <td>IDR 95.000</td>
-                                <td></td>
-                                <td>0,5</td>
-                                <td>IDR 95.000</td>
-                            </tr>
-                            <tr>
-                                <td><br/></td>
-                            </tr>
-                            <tr style="border-bottom: 1px dashed black">
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><br/></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td>Shipping fee: </td>
-                                <td>0,5</td>
-                                <td>IDR 25.000</td>
-                            </tr>
-                            <tr>
-                                <td><br/></td>
-                            </tr>
-                            <tr style="border-bottom: 1px dashed black">
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><br/></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total: </td>
-                                <td>IDR 120.000</td>
-                            </tr>
-                            <tr>
-                                <td><br/></td>
-                            </tr>
-                            <tr style="border-bottom: 1px dashed black">
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><p style="margin-top: 5px;"></p></td>
-                            </tr>
-
-                            <tr style="border-bottom: 1px solid black;"> 
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><br/></td>
-                            </tr>
-
-                        </table>
                         <style>
-                            .shipping_address
+                            .submenu_right input
                             {
+                                border: 1px solid #8ea8c1;
+                                margin-bottom: 5px;
+                            }
 
-                            }
-                            .submenu_right .shipping_address h3
+                        </style>
+                        <form>
+                            <table>
+                                <tr>
+                                    <td><h3 style="color: black; font-size: 12px;font-weight: bold; float: left">My Account</h3></td>
+                                </tr>
+                                <tr>
+                                    <td><label>Name : </label></td>
+                                    <td><input type="text"/></td>
+                                </tr>
+                                <tr>
+                                    <td><label>Address : </label></td>
+                                    <td><input type="text"/></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <label style="margin-right: 6px">District/City : </label>
+                                        <select style="background-color: white; margin-bottom: 5px;border: 1px solid #8ea8c1;">
+                                            <option style="width: 90px;">
+
+                                            </option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <label style="margin-right: 25px;">Province : </label>
+                                        <select style="background-color: white; margin-bottom: 5px;border: 1px solid #8ea8c1;">
+                                            <option style="width: 90px; ">
+
+                                            </option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Email : </td>
+                                    <td><input type="text"/></td>
+                                </tr>
+                                <tr>
+                                    <td>Telp : </td>
+                                    <td><input type="text"/></td>
+                                </tr>
+                                <tr>
+                                    <td>Username</td>
+                                    <td><input type="text"/></td>
+                                </tr>
+                                <tr>
+                                    <td>Password</td>
+                                    <td><input type="text"/></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <input type="submit" value="Edit" style="border-radius: 5px;background-color: white;float: right"/>
+                                        <input type="submit" value="Save" style="border-radius: 5px; background-color: white;float: right"/>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                        <style>
+                            .submenu_right table.table_on
                             {
-                                color: black;
-                                font-weight: bold;
-                                text-align: left;
-                                font-size: 12px;
-                                margin-bottom: 20px;
-                                margin-top: 25px;
-                                font-family: sans-serif;
+                                margin-top: 20px
                             }
-                            .submenu_right .shipping_address p
+                            .submenu_right table.table_on tr
                             {
-                                color: black;
-                                text-align: left;
-                                margin-bottom: 20px;
-                                font-family: sans-serif
+                                border: 1px solid black
                             }
-                            .shipping_address2
+
+                            .submenu_right table.table_on tr td
                             {
+                                border: 1px solid black;
+                                height: 20px;
+                                width: 131px;
                                 text-align: center
                             }
                         </style>
-                        <div class="shipping_address">
-                            <h3>Shipping Address</h3>
-                            <p>Shinta Perima Sari</p>
-                            <p>Jl. Nusa Indah No.36 Condong Catur,Depok,Sleman,Yogyakarta.</p>
-                            <p>0865654701593</p>
-                        </div>
-                        <div class="shipping_address2">
-                            <p style="color: black;margin-bottom: 20px; color: black;font-weight: bold">Please leave a note to us with your order if you want to:</p>
-
-                            <textarea style="margin-bottom: 20px;border: 3px solid black; width: 251px;height: 102px; azimuth: behind; max-height: 102px; min-height: 102px; max-width: 251px;min-width: 251px"/></textarea>
-                            <br/>
-
-                            <a href=""><img src="<?php include('../elemen/url.php'); ?>image/cart/submit.gif"/></a>
-                        </div>
+                        <table class="table_on">
+                            <tr>
+                                <td>Number of Purchase</td>
+                                <td>The Date of Booking</td>
+                                <td>Product</td>
+                                <td>Quantity</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
 
                     </div>
                 </div>
