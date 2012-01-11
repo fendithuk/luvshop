@@ -27,9 +27,15 @@
         .content_left ul li p
         {
 
-            margin: 149px 0 -168px 0;
+            margin: 0;
             padding: 0;
         }
+/*        .content_left ul li p#nama_barang
+        {
+
+            margin: 10px;
+            padding: 0;
+        }*/
         .content_left #lili a
         {
             color: #ffb3cd;

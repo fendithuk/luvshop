@@ -13,6 +13,25 @@
         <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.mousewheel.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
+                $("li#home").removeClass("background_menu");
+                
+                $("li#progress").css({
+                    "margin-top":"-1px"
+                });
+               $("li#account,li#shipment,li#confpayment").css({
+                   "margin-top":"-1px"
+               });
+               $("p#cartempty").css({
+                    "display":"none"
+                });
+                   
+                $("div#cartfadein").css({
+                    "display":"block"
+                });
+            });
+        </script>
+<!--        <script type="text/javascript">
+            $(document).ready(function(){
                 $("li#home").removeClass("background_menu").css({
                     
                     "margin-top":"20px",
@@ -29,7 +48,7 @@
                     
                
             });
-        </script>
+        </script>-->
     </head>
     <body>
         <div class="wrap"> <!--start wrap-->

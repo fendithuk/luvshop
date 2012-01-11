@@ -13,6 +13,19 @@
         <script type="text/javascript" src="<?php include('../elemen/url.php'); ?>js/jquery.mousewheel.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
+                $("li#home").removeClass("background_menu");
+                
+                $("li#progress").addClass("background_menu").css({
+                    "margin-top":"-1px"
+                });
+               $("li#account,li#shipment,li#confpayment").css({
+                   "margin-top":"-1px"
+               });
+               
+            });
+        </script>
+<!--        <script type="text/javascript">
+            $(document).ready(function(){
                 $("li#home").removeClass("background_menu").css({
                     
                     "margin-top":"20px",
@@ -21,7 +34,7 @@
                 
                 
                 });
-        </script>
+        </script>-->
     </head>
     <body>
         <div class="wrap"> <!--start wrap-->
@@ -577,6 +590,7 @@
                                 padding: 5px;
                                 font-weight: bold;
                                 font-size: 12px;
+                                cursor: pointer
                             }
                         </style>
                         <h3>Registration</h3>

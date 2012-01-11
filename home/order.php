@@ -196,6 +196,7 @@
                                 <li>Tekan tombol next.</li>
                                 <li>Cek kembali data orderan kalian, jika sudah betul,<br/> tekan tombol Confirm Order.</li>
                                 <li>Untuk melihat data orderan yang pernah kalian buat, <br/>cari menu My account yang ada didalam main menu.</li>
+                                
                             </ol>
                         </div>
 

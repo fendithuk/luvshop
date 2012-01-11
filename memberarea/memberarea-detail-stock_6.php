@@ -77,11 +77,66 @@
                             }
                             .submenu_right #img_utama
                             {
-                                height: 356px;
-                                width: 319px;
+                               height: 315px;
+                                width: 266px;
                                 position: absolute;
-                                margin-top: -306px;
-                                margin-left: -10px
+                                margin-top: -281px;
+                                margin-left: 11px;
+                                
+                            }
+                            .submenu_right #img_utama_tk1
+                            {
+                                height: 315px;
+                                width: 266px;
+                                position: absolute;
+                                margin-top: -281px;
+                                margin-left: 11px;
+                                display: none
+                            }
+                            .submenu_right #img_utama_tk2
+                            {
+                                height: 315px;
+                                width: 266px;
+                                position: absolute;
+                                margin-top: -281px;
+                                margin-left: 11px;
+                                display: none
+                            }
+                            .submenu_right #img_utama_tk3
+                            {
+                               height: 315px;
+                                width: 266px;
+                                position: absolute;
+                                margin-top: -281px;
+                                margin-left: 11px;
+                                display: none
+                            }
+                            .submenu_right #img_utama_tk4
+                            {
+                               height: 315px;
+                                width: 266px;
+                                position: absolute;
+                                margin-top: -281px;
+                                margin-left: 11px;
+                                display: none
+                            }
+                            .submenu_right #img_utama_tk5
+                            {
+                                height: 315px;
+                                width: 266px;
+                                position: absolute;
+                                margin-top: -281px;
+                                margin-left: 11px;
+                                display: none
+                            }
+                            .submenu_right #img_utama_tk6
+                            {
+                                height: 315px;
+                                width: 266px;
+                                position: absolute;
+                                margin-top: -281px;
+                                margin-left: 11px;
+                                display: none
                             }
                             .submenu_right table
                             {
@@ -94,6 +149,8 @@
                                 height: 72px;
                                 width: 79px;
                                 margin-right: 3px;
+                                opacity: 0.5;
+                                /*                                position: absolute*/
                             }
                             img#img_utama_shadow
                             {
@@ -105,22 +162,56 @@
                                 display: none;
                             }
                         </style>
+                        
+                        <script type="text/javascript">
+                            $(document).ready(function(){
+                                $("img.img_kedua").hover(
+                                    function(){
+                                        $(this).css({
+                                            "box-shadow":" 0 0 40px 0 red",
+                                            "-webkit-box-shadow":" 0 0 40px 0 red",
+                                             "-moz-box-shadow":" 0 0 40px 0 red",
+                                              "-o-box-shadow":" 0 0 40px 0 red",
+                                              "cursor":"pointer",
+                                              "opacity":"1"
+                                        });
+                                    },function(){
+                                       $(this).css({
+                                            "box-shadow":" 0 0 40px 0 white",
+                                            "-webkit-box-shadow":" 0 0 40px 0 white",
+                                             "-moz-box-shadow":" 0 0 40px 0 white",
+                                              "-o-box-shadow":" 0 0 40px 0 white",
+                                              "cursor":"pointer",
+                                              "opacity":"0.5"
+                                        });
+                                    }
+                            );
+                            });
+                        </script>
                         <ul style="list-style: none">
-                            <li style="display: inline-block"><img src="<?php include('../elemen/url.php'); ?>image/home/tas6.gif" id="img_utama"/></li>
+                            <li style="display: inline-block">
+                                <img src="<?php include('../elemen/url.php'); ?>image/home/tas6.gif" id="img_utama"/>
+                                <img src="<?php include('../elemen/url.php'); ?>image/stock/taskecil1.gif"  id="img_utama_tk1"/>
+                                <img src="<?php include('../elemen/url.php'); ?>image/stock/taskecil2.gif"  id="img_utama_tk2"/>
+                                <img src="<?php include('../elemen/url.php'); ?>image/stock/taskecil3.gif"  id="img_utama_tk3"/>
+                                <img src="<?php include('../elemen/url.php'); ?>image/stock/taskecil4.gif"  id="img_utama_tk4"/>
+                                <img src="<?php include('../elemen/url.php'); ?>image/stock/taskecil5.gif"  id="img_utama_tk5"/>
+                                <img src="<?php include('../elemen/url.php'); ?>image/stock/taskecil6.gif"  id="img_utama_tk6"/>
+                            </li>
                             <li style="display: inline-block"><img src="<?php include('../elemen/url.php'); ?>image/home/tas6.gif" id="img_utama_shadow"/></li>
                             <li style="display: inline-block;margin-left: 288px">
                                 <ul style="margin-top: 10px">
                                     <li>
                                         <table>
                                             <tr>
-                                                <td><img src="<?php include('../elemen/url.php'); ?>image/stock/taskecil1.gif" class="img_kedua"/></td>
-                                                <td><img src="<?php include('../elemen/url.php'); ?>image/stock/taskecil2.gif" class="img_kedua"/></td>
-                                                <td><img src="<?php include('../elemen/url.php'); ?>image/stock/taskecil3.gif" class="img_kedua"/></td>
+                                                <td><img  src="<?php include('../elemen/url.php'); ?>image/stock/taskecil1.gif" class="img_kedua" id="tk1"/></td>
+                                                <td><img src="<?php include('../elemen/url.php'); ?>image/stock/taskecil2.gif" class="img_kedua" id="tk2"/></td>
+                                                <td><img src="<?php include('../elemen/url.php'); ?>image/stock/taskecil3.gif" class="img_kedua" id="tk3"/></td>
                                             </tr>
                                             <tr>
-                                                <td><img src="<?php include('../elemen/url.php'); ?>image/stock/taskecil4.gif" class="img_kedua"/></td>
-                                                <td><img src="<?php include('../elemen/url.php'); ?>image/stock/taskecil5.gif" class="img_kedua"/></td>
-                                                <td><img src="<?php include('../elemen/url.php'); ?>image/stock/taskecil6.gif" class="img_kedua"/></td>
+                                                <td><img src="<?php include('../elemen/url.php'); ?>image/stock/taskecil4.gif" class="img_kedua" id="tk4"/></td>
+                                                <td><img src="<?php include('../elemen/url.php'); ?>image/stock/taskecil5.gif" class="img_kedua" id="tk5"/></td>
+                                                <td><img src="<?php include('../elemen/url.php'); ?>image/stock/taskecil6.gif" class="img_kedua" id="tk6"/></td>
                                             </tr>
                                         </table>
                                     </li>
